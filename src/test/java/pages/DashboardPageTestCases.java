@@ -37,7 +37,7 @@ public class DashboardPageTestCases {
 		
 		
 		@Test(priority=2)
-		public void TestCase1() throws InterruptedException {
+		public void TestCaseClickOnCarousalLeftButton() throws InterruptedException {
 			for (int i = 1; i <= 7; i++) {
 				  System.out.println(i);
 				  DashboardPageVariable.clickOnCarousalLeftButton();
@@ -46,13 +46,14 @@ public class DashboardPageTestCases {
 		}
 		
 		@Test(priority=3)
-		public void TestCase2() throws InterruptedException {
+		public void TestCaseClickOnCarousalRightButton() throws InterruptedException {
 			for (int i = 1; i <= 7; i++) {
 				  System.out.println(i);
 				  DashboardPageVariable.clickOnCarousalRightButton();
 				  Thread.sleep(1000);
 			}
 		}
+		
 		
 		
 		@AfterTest
