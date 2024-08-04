@@ -1,6 +1,8 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -27,7 +29,7 @@ public class DashboardPageTestCases {
 		}
 		
 		
-		@Test(priority=1)
+		@Test(priority=0)
 		public void TestCaseVerifyTitle() {
 			String Expected_Title = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
 			String Actual_Title = driver.getTitle();
@@ -63,8 +65,25 @@ public class DashboardPageTestCases {
 		}
 		
 		@Test(priority = 5)
-		public void TestCaseclickOnHamburgerMenuButton() throws InterruptedException {
+		public void TestCaseClickOnHamburgerMenuButton() throws InterruptedException {
 			DashboardPageVariable.clickOnHamburgerMenuButton();
+			Thread.sleep(2000);
+			DashboardPageVariable.hamMenuCloseButton();
+			Thread.sleep(2000);
+		}
+		
+		@Test(priority = 6)
+		public void TestCaseSearchForProduct() throws InterruptedException {
+			DashboardPageVariable.clickOnSearchBar("iphone 15 pro max");
+			Thread.sleep(3000);
+			DashboardPageVariable.clickOnFirstOption();
+			Thread.sleep(2000);
+			DashboardPageVariable.scrollToPaginationButton();
+			Thread.sleep(4000);	
+			WebElement firstProduct = driver.findElement(By.xpath("(//img[@class='s-image'])[1]"));
+			firstProduct.click();
+			Thread.sleep(2000);
+			DashboardPageVariable.scrollToAddCartButton();
 			Thread.sleep(2000);
 		}
 		
