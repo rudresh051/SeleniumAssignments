@@ -19,8 +19,15 @@ public class DashboardPage {
 	
 	@FindBy(xpath = "//i[@class='a-icon a-icon-previous-rounded']")
 	WebElement CarousalLeftButton;
+	
 	@FindBy(xpath = "//i[@class='a-icon a-icon-next-rounded']")
 	WebElement CarousalRightButton;
+	
+	@FindBy(id="desktop-banner")
+	WebElement CarousalBanner;
+	
+	@FindBy(id="nav-hamburger-menu")
+	WebElement HamburgerMenuButton;
 	
 	// Methods
 	public void clickOnCarousalLeftButton() {
@@ -29,4 +36,14 @@ public class DashboardPage {
 	public void clickOnCarousalRightButton() {
 		CarousalRightButton.click();
 	}
+	public void clickOnCarousalBanner() {
+		CarousalBanner.click();
+	}
+	
+	public void clickOnHamburgerMenuButton() {
+		HamburgerMenuButton.click();
+	}
+	
+	
+	
 }

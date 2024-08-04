@@ -4,6 +4,7 @@
   <test name="Default test" verbose="2">
     <classes>
       <class name="pages.DashboardPageTestCases"/>
+      <class name="pages.DashboardPage"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

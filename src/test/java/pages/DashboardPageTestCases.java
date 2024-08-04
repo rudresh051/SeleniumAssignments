@@ -54,6 +54,19 @@ public class DashboardPageTestCases {
 			}
 		}
 		
+		@Test(priority = 4)
+		public void TestCaseClickOnCarousalBanner() throws InterruptedException {
+			DashboardPageVariable.clickOnCarousalBanner();
+			Thread.sleep(3000);
+			driver.navigate().back();
+			Thread.sleep(3000);
+		}
+		
+		@Test(priority = 5)
+		public void TestCaseclickOnHamburgerMenuButton() throws InterruptedException {
+			DashboardPageVariable.clickOnHamburgerMenuButton();
+			Thread.sleep(2000);
+		}
 		
 		
 		@AfterTest
