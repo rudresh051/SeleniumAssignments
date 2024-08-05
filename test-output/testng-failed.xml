@@ -10,7 +10,7 @@
     <classes>
       <class name="pages.DashboardPageTestCases">
         <methods>
-          <include name="TestCaseSearchForProduct"/>
+          <include name="TestCaseEnterCurrentPinCode"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>

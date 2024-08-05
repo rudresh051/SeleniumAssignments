@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="6" passed="5" failed="1" skipped="0">
+<testng-results total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-04T11:51:34Z" name="Default suite" finished-at="2024-08-04T11:52:26Z" duration-ms="52161">
+  <suite started-at="2024-08-05T19:01:29Z" name="Default suite" finished-at="2024-08-05T19:02:29Z" duration-ms="59595">
     <groups>
     </groups>
-    <test started-at="2024-08-04T11:51:34Z" name="Default test" finished-at="2024-08-04T11:52:26Z" duration-ms="52161">
+    <test started-at="2024-08-05T19:01:29Z" name="Default test" finished-at="2024-08-05T19:02:29Z" duration-ms="59595">
       <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:21:34Z" name="setup" finished-at="2024-08-04T17:21:42Z" duration-ms="8107" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:31:29Z" name="setup" finished-at="2024-08-06T00:31:38Z" duration-ms="9149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:21:42Z" name="TestCaseVerifyTitle" finished-at="2024-08-04T17:21:42Z" duration-ms="20" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:31:38Z" name="TestCaseVerifyTitle" finished-at="2024-08-06T00:31:38Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:21:42Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-04T17:21:50Z" duration-ms="7695" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:31:38Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-06T00:31:46Z" duration-ms="7773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalLeftButton -->
-        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:21:50Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-04T17:21:57Z" duration-ms="7600" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:31:46Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-06T00:31:54Z" duration-ms="7849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalRightButton -->
-        <test-method signature="TestCaseClickOnCarousalBanner()[pri:4, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:21:57Z" name="TestCaseClickOnCarousalBanner" finished-at="2024-08-04T17:22:05Z" duration-ms="7785" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalBanner()[pri:4, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:31:54Z" name="TestCaseClickOnCarousalBanner" finished-at="2024-08-06T00:32:03Z" duration-ms="9017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalBanner -->
-        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:22:05Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-04T17:22:09Z" duration-ms="4258" status="PASS">
+        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:32:03Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-06T00:32:07Z" duration-ms="4338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnHamburgerMenuButton -->
-        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:22:09Z" name="TestCaseSearchForProduct" finished-at="2024-08-04T17:22:22Z" duration-ms="13232" status="FAIL">
+        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:32:07Z" name="TestCaseSearchForProduct" finished-at="2024-08-06T00:32:21Z" duration-ms="13356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSearchForProduct -->
+        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:32:21Z" name="TestCaseAmazonLogo" finished-at="2024-08-06T00:32:22Z" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseAmazonLogo -->
+        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:32:22Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-06T00:32:25Z" duration-ms="3171" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title='Add to Shopping Cart']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".GLUX_Full_Width"}
   (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61aa4ad9dd4b88f82180208aac5e05ef, findElement {using=xpath, value=//input[@title='Add to Shopping Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54182/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61aa4ad9dd4b88f82180208aac5e05ef]]>
+Command: [1bc67504db664c853e6df1aa7fbc8362, findElement {using=class name, value=GLUX_Full_Width}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55121/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bc67504db664c853e6df1aa7fbc8362]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title='Add to Shopping Cart']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".GLUX_Full_Width"}
   (Session info: chrome=127.0.6533.89)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61aa4ad9dd4b88f82180208aac5e05ef, findElement {using=xpath, value=//input[@title='Add to Shopping Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54182/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61aa4ad9dd4b88f82180208aac5e05ef
+Command: [1bc67504db664c853e6df1aa7fbc8362, findElement {using=class name, value=GLUX_Full_Width}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55121/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bc67504db664c853e6df1aa7fbc8362
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -67,23 +75,13 @@ Session ID: 61aa4ad9dd4b88f82180208aac5e05ef
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:461)
-	at pages.DashboardPage.scrollToAddCartButton(DashboardPage.java:86)
-	at pages.DashboardPageTestCases.TestCaseSearchForProduct(DashboardPageTestCases.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at pages.DashboardPageTestCases.TestCaseEnterCurrentPinCode(DashboardPageTestCases.java:102)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,8 +111,8 @@ Session ID: 61aa4ad9dd4b88f82180208aac5e05ef
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaseSearchForProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@598bd2ba]" started-at="2024-08-04T17:22:22Z" name="teardown" finished-at="2024-08-04T17:22:26Z" duration-ms="3432" status="PASS">
+        </test-method> <!-- TestCaseEnterCurrentPinCode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@484094a5]" started-at="2024-08-06T00:32:25Z" name="teardown" finished-at="2024-08-06T00:32:29Z" duration-ms="3523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

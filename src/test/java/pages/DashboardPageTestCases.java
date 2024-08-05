@@ -83,7 +83,25 @@ public class DashboardPageTestCases {
 			WebElement firstProduct = driver.findElement(By.xpath("(//img[@class='s-image'])[1]"));
 			firstProduct.click();
 			Thread.sleep(2000);
-			DashboardPageVariable.scrollToAddCartButton();
+		}
+		
+		@Test(priority = 7)
+		public void TestCaseAmazonLogo() {
+			DashboardPageVariable.clickLogo();
+			String url_expected = "https://www.amazon.in/ref=nav_logo";
+			String url_actual = driver.getCurrentUrl();
+			Assert.assertEquals(url_actual, url_expected);
+			Assert.assertTrue(DashboardPageVariable.amazonLogo.isDisplayed());
+			System.out.println(DashboardPageVariable.amazonLogo.isDisplayed());
+		}
+		
+		@Test(priority = 8)
+		public void TestCaseEnterCurrentPinCode() throws InterruptedException {
+			DashboardPageVariable.location.click();
+			Thread.sleep(3000);
+			DashboardPageVariable.pincode.sendKeys("560029");
+			Thread.sleep(3000);
+			DashboardPageVariable.apply.click();
 			Thread.sleep(2000);
 		}
 		

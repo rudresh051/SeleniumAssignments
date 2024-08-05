@@ -47,6 +47,19 @@ public class DashboardPage {
 	@FindBy(css = "div.hmenu-close-icon")
 	WebElement hamClosebutton;
 	
+	@FindBy(xpath = "//a[@href='/ref=nav_logo']")
+	WebElement amazonLogo;
+	
+	@FindBy(id = "glow-ingress-block")
+	WebElement location;
+	
+	@FindBy(className="GLUX_Full_Width")
+	WebElement pincode;
+	
+	@FindBy(xpath = "(//input[@class='a-button-input'])[3]")
+	WebElement apply;
+	
+	
 	// Methods
 	public void clickOnCarousalLeftButton() {
 		CarousalLeftButton.click();
@@ -89,6 +102,10 @@ public class DashboardPage {
 	
 	public void hamMenuCloseButton() {
 		hamClosebutton.click();
+	}
+	
+	public void clickLogo() {
+		amazonLogo.click();
 	}
 	
 	
