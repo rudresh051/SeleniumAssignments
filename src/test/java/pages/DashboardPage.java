@@ -65,6 +65,9 @@ public class DashboardPage {
 	@FindBy(xpath = "(//i[@class='a-icon a-icon-radio'])[2]")
 	WebElement hindiRadioButton;
 	
+	@FindBy(id = "nav-link-accountList")
+	WebElement signinButton;
+	
 	
 	
 	// Methods
@@ -113,6 +116,10 @@ public class DashboardPage {
 	
 	public void clickLogo() {
 		amazonLogo.click();
+	}
+	
+	public void clickOnSignInButton() {
+		signinButton.click();
 	}
 	
 	

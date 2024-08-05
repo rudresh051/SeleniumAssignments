@@ -104,15 +104,32 @@ public class DashboardPageTestCases {
 //			DashboardPageVariable.applyPinCodeButton.click();
 //			Thread.sleep(2000);
 //		}
+//		
+//		@Test(priority = 9)
+//		public void TestCaseChangeWebsiteLanguage() throws InterruptedException {
+//			DashboardPageVariable.languageButton.click();
+//			Thread.sleep(3000);
+//			DashboardPageVariable.hindiRadioButton.click();
+//			Thread.sleep(3000);
+//			DashboardPageVariable.clickLogo();
+//			Thread.sleep(2000);
+//		}
 		
-		@Test(priority = 9)
-		public void TestCaseChangeWebsiteLanguage() throws InterruptedException {
-			DashboardPageVariable.languageButton.click();
-			Thread.sleep(3000);
-			DashboardPageVariable.hindiRadioButton.click();
-			Thread.sleep(3000);
-			DashboardPageVariable.clickLogo();
+		
+		@Test(priority = 10)
+		public void TestCaseSignInPage() throws InterruptedException {
+			DashboardPageVariable.clickOnSignInButton();
 			Thread.sleep(2000);
+			String expected_url = "https://www.amazon.in/ap/signin";
+			String actual_url = driver.getCurrentUrl();
+			
+			if(actual_url.contains(expected_url)) {
+				System.out.println("Sign In URL is verified!");
+			}
+			else {
+				System.out.println("Sign In URL verification failed!");
+			}
+			
 		}
 		
 		
