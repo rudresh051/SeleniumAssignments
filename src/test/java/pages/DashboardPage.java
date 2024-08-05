@@ -57,7 +57,14 @@ public class DashboardPage {
 	WebElement pincode;
 	
 	@FindBy(xpath = "(//input[@class='a-button-input'])[3]")
-	WebElement apply;
+	WebElement applyPinCodeButton;
+	
+	@FindBy(xpath = "(//a[@aria-label='Choose a language for shopping.'])[1]")
+	WebElement languageButton;
+	
+	@FindBy(xpath = "(//i[@class='a-icon a-icon-radio'])[2]")
+	WebElement hindiRadioButton;
+	
 	
 	
 	// Methods
