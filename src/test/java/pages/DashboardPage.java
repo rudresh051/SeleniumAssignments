@@ -68,6 +68,38 @@ public class DashboardPage {
 	@FindBy(id = "nav-link-accountList")
 	WebElement signinButton;
 	
+	@FindBy(xpath = "//a[@href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']")
+	WebElement aboutUsButton;
+	
+	@FindBy(xpath = "//a[@href='https://amazon.jobs']")
+	WebElement careersPageButton;
+	
+	@FindBy(xpath = "//a[@href='https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer']")
+	WebElement pressReleaseButton;
+	
+	@FindBy(xpath = "//a[@href='https://www.amazon.science']")
+	WebElement amazonSciencePageButton;
+	
+	@FindBy(xpath = "(//a[@class='nav_a'])[5]")
+	WebElement facebookPageButton;
+	
+	@FindBy(xpath = "//a[@href='http://www.facebook.com/AmazonIN']")
+	WebElement goToFacebookPageButton;
+	
+	@FindBy(xpath = "(//a[@class='nav_a'])[6]")
+	WebElement twitterPageButton;
+	
+	@FindBy(xpath = "//a[@href='http://twitter.com/AmazonIN']")
+	WebElement goToTwitterPageButton;
+	
+	@FindBy(xpath = "(//a[@class='nav_a'])[7]")
+	WebElement instagramPageButton;
+	
+	@FindBy(xpath = "//a[@href='https://www.instagram.com/amazondotin']")
+	WebElement goToInstagramPageButton;
+	
+	
+	
 	
 	
 	// Methods
@@ -122,5 +154,8 @@ public class DashboardPage {
 		signinButton.click();
 	}
 	
+	public void clickOnAboutUsButton() {
+		aboutUsButton.click();
+	}
 	
 }

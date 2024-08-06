@@ -17,7 +17,6 @@ public class DashboardPageTestCases {
 		private DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
 		
 		
-	
 		@BeforeTest
 		public void setup() throws InterruptedException {
 			WebDriverManager.chromedriver().setup();
@@ -80,8 +79,6 @@ public class DashboardPageTestCases {
 			Thread.sleep(2000);
 			DashboardPageVariable.scrollToPaginationButton();
 			Thread.sleep(4000);	
-//			WebElement firstProduct = driver.findElement(By.xpath("(//img[@class='s-image'])[1]"));
-//			firstProduct.click();
 			Thread.sleep(2000);
 		}
 		
@@ -129,8 +126,123 @@ public class DashboardPageTestCases {
 			else {
 				System.out.println("Sign In URL verification failed!");
 			}
+			driver.navigate().back();
+			Thread.sleep(2000);
 			
 		}
+		
+		@Test(priority = 11)
+		public void TestCaseClickOnAboutUsButton() throws InterruptedException {
+			DashboardPageVariable.clickOnAboutUsButton();
+			String url_expected = "https://www.aboutamazon.in/";
+			String url_actual = driver.getCurrentUrl();
+			
+			if(url_actual.contains(url_expected)) {
+				System.out.println("About Us URL is verified");
+			}else {
+				System.out.println("About Us URL verification failed");
+			}
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+		}
+		
+		@Test(priority = 12)
+		public void TestCaseFooterGetToKnowUsLinksVerification() throws InterruptedException {
+			DashboardPageVariable.careersPageButton.click();
+			String url_expected1 = "https://amazon.jobs/";
+			String url_actual1 = driver.getCurrentUrl();
+			
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("Career Page URL is verified");
+			}else {
+				System.out.println("Career Page URL verification failed");
+			}
+			
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+			DashboardPageVariable.pressReleaseButton.click();
+			String url_expected2 = "https://press.aboutamazon.in/";
+			String url_actual2 = driver.getCurrentUrl();
+			
+			if(url_actual2.contains(url_expected2)) {
+				System.out.println("Press release URL is verified");
+			}else {
+				System.out.println("Press release URL verification failed");
+			}
+			
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+			DashboardPageVariable.amazonSciencePageButton.click();
+			String url_expected3 = "https://www.amazon.science/";
+			String url_actual3 = driver.getCurrentUrl();
+			
+			if(url_actual3.contains(url_expected3)) {
+				System.out.println("Amazon Science URL is verified");
+			}else {
+				System.out.println("Amazon Science URL verification failed");
+			}
+			
+			driver.navigate().back();
+			Thread.sleep(2000);
+		}
+		
+		@Test(priority = 13)
+		public void TestCaseSocialMediaPages() throws InterruptedException {
+			// Navigate to Facebook
+			DashboardPageVariable.facebookPageButton.click();
+			Thread.sleep(2000);
+			DashboardPageVariable.goToFacebookPageButton.click();
+			Thread.sleep(2000);
+			String url_expected1 = "https://www.facebook.com/AmazonIN";
+			String url_actual1 = driver.getCurrentUrl();
+			
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("Facebook Page URL is verified");
+			}else {
+				System.out.println("Facebook Page URL verification failed");
+			}
+				
+			driver.navigate().back();
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+			
+			// Navigate to Twitter
+			DashboardPageVariable.twitterPageButton.click();
+			Thread.sleep(2000);
+			DashboardPageVariable.goToTwitterPageButton.click();
+			String url_expected2 = "https://x.com/AmazonIN";
+			String url_actual2 = driver.getCurrentUrl();
+			if(url_actual2.contains(url_expected2)) {
+				System.out.println("Twitter Handle URL is verified");
+			}else {
+				System.out.println("Twitter Handle URL verification failed");
+			}
+			driver.navigate().back();
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+			// Navigate to Instagram
+			DashboardPageVariable.instagramPageButton.click();
+			Thread.sleep(2000);
+			DashboardPageVariable.goToInstagramPageButton.click();
+			String url_expected3 = "https://www.instagram.com/amazondotin";
+			String url_actual3 = driver.getCurrentUrl();
+			if(url_actual3.contains(url_expected3)) {
+				System.out.println("Instagram Handle URL is verified");
+			}else {
+				System.out.println("Instagram Handle URL verification failed");
+			}
+			driver.navigate().back();
+			driver.navigate().back();
+			Thread.sleep(2000);
+			
+		}
+		
+		
 		
 		
 		
