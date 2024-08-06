@@ -68,6 +68,7 @@ public class DashboardPage {
 	@FindBy(id = "nav-link-accountList")
 	WebElement signinButton;
 	
+	// Get to Know Us
 	@FindBy(xpath = "//a[@href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']")
 	WebElement aboutUsButton;
 	
@@ -80,6 +81,7 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='https://www.amazon.science']")
 	WebElement amazonSciencePageButton;
 	
+	// Connect with Us
 	@FindBy(xpath = "(//a[@class='nav_a'])[5]")
 	WebElement facebookPageButton;
 	
@@ -98,7 +100,16 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='https://www.instagram.com/amazondotin']")
 	WebElement goToInstagramPageButton;
 	
-	
+	// Make Money with Us
+	@FindBy(xpath = "(//a[@class='nav_a'])[8]") WebElement sellOnAmazonButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[9]") WebElement sellUnderAmazonAcceleratorButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[10]") WebElement protectAndBuildYourBrandButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[11]") WebElement amazonGlobalSellingButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[12]") WebElement supplyToAmazonButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[13]") WebElement becomeAnAffiliateButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[14]") WebElement fulfilmentByAmazonButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[15]") WebElement advertiseYourProductsButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[16]") WebElement amazonPayOnMerchantsButton;
 	
 	
 	

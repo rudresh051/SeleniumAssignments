@@ -242,6 +242,117 @@ public class DashboardPageTestCases {
 			
 		}
 		
+		@Test(priority = 14)
+		public void TestCaseMakeMoneyWithUsLinksVerify() throws InterruptedException {
+			// Link1
+			DashboardPageVariable.sellOnAmazonButton.click();
+			String url_expected1 = "nav_footer_sell_C";
+			String url_actual1 = driver.getCurrentUrl();
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("Sell on Amazon URL is verified");
+			}else {
+				System.out.println("Sell on Amazon URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link2
+			DashboardPageVariable.sellUnderAmazonAcceleratorButton.click();
+			String url_expected2 = "map_1_b2b_GW_FT";
+			String url_actual2 = driver.getCurrentUrl();
+			if(url_actual2.contains(url_expected2)) {
+				System.out.println("Sell under amazon accelerator URL is verified");
+			}else {
+				System.out.println("Sell under amazon accelerator URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link3
+			DashboardPageVariable.protectAndBuildYourBrandButton.click();
+			String url_expected3 = "https://brandservices.amazon.in/";
+			String url_actual3 = driver.getCurrentUrl();
+			if(url_actual3.contains(url_expected3)) {
+				System.out.println("Protect and Build Your Brand URL is verified");
+			}else {
+				System.out.println("Protect and Build Your Brand URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link4
+			DashboardPageVariable.amazonGlobalSellingButton.click();
+			String url_expected4 = "https://sell.amazon.in/";
+			String url_actual4 = driver.getCurrentUrl();
+			if(url_actual4.contains(url_expected4)) {
+				System.out.println("Amazon Global Selling URL is verified");
+			}else {
+				System.out.println("Amazon Global Selling URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link5
+			DashboardPageVariable.supplyToAmazonButton.click();
+			String url_expected5 = "https://supply.amazon.com/";
+			String url_actual5 = driver.getCurrentUrl();
+			if(url_actual5.contains(url_expected5)) {
+				System.out.println("Supply to Amazon URL is verified");
+			}else {
+				System.out.println("Supply to Amazon URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link6
+			DashboardPageVariable.becomeAnAffiliateButton.click();
+			String url_expected6 = "https://affiliate-program.amazon.in/";
+			String url_actual6 = driver.getCurrentUrl();
+			if(url_actual6.contains(url_expected6)) {
+				System.out.println("Become an Affiliate URL is verified");
+			}else {
+				System.out.println("Become an Affiliate URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link7
+			DashboardPageVariable.fulfilmentByAmazonButton.click();
+			String url_expected7 = "fulfillment-by-amazon";
+			String url_actual7 = driver.getCurrentUrl();
+			if(url_actual7.contains(url_expected7)) {
+				System.out.println("Fulfilment by Amazon URL is verified");
+			}else {
+				System.out.println("Fulfilment by Amazon verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link8
+			DashboardPageVariable.advertiseYourProductsButton.click();
+			String url_expected8 = "https://advertising.amazon.com/";
+			String url_actual8 = driver.getCurrentUrl();
+			if(url_actual8.contains(url_expected8)) {
+				System.out.println("Advertise Your Products URL is verified");
+			}else {
+				System.out.println("Advertise Your Products verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link9
+			DashboardPageVariable.amazonPayOnMerchantsButton.click();
+			String url_expected9 = "https://www.amazon.in/amazonpay";
+			String url_actual9 = driver.getCurrentUrl();
+			if(url_actual9.contains(url_expected9)) {
+				System.out.println("Amazon Pay on Merchants URL is verified");
+			}else {
+				System.out.println("Amazon Pay on Merchants verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+		}
+		
 		
 		
 		

@@ -2,24 +2,24 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T17:41:05Z" name="Default suite" finished-at="2024-08-06T17:41:42Z" duration-ms="37424">
+  <suite started-at="2024-08-06T19:33:57Z" name="Default suite" finished-at="2024-08-06T19:34:37Z" duration-ms="39314">
     <groups>
     </groups>
-    <test started-at="2024-08-06T17:41:05Z" name="Default test" finished-at="2024-08-06T17:41:42Z" duration-ms="37424">
+    <test started-at="2024-08-06T19:33:57Z" name="Default test" finished-at="2024-08-06T19:34:37Z" duration-ms="39314">
       <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-06T23:11:05Z" name="setup" finished-at="2024-08-06T23:11:15Z" duration-ms="9923" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-07T01:03:57Z" name="setup" finished-at="2024-08-07T01:04:07Z" duration-ms="9138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-06T23:11:15Z" name="TestCaseVerifyTitle" finished-at="2024-08-06T23:11:15Z" duration-ms="16" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-07T01:04:07Z" name="TestCaseVerifyTitle" finished-at="2024-08-07T01:04:07Z" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-06T23:11:15Z" name="TestCaseSocialMediaPages" finished-at="2024-08-06T23:11:39Z" duration-ms="24039" status="PASS">
+        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-07T01:04:07Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-07T01:04:33Z" duration-ms="26527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaseSocialMediaPages -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-06T23:11:39Z" name="teardown" finished-at="2024-08-06T23:11:42Z" duration-ms="3432" status="PASS">
+        </test-method> <!-- TestCaseMakeMoneyWithUsLinksVerify -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-07T01:04:33Z" name="teardown" finished-at="2024-08-07T01:04:37Z" duration-ms="3580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
