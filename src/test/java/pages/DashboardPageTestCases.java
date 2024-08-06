@@ -323,7 +323,7 @@ public class DashboardPageTestCases {
 			if(url_actual7.contains(url_expected7)) {
 				System.out.println("Fulfilment by Amazon URL is verified");
 			}else {
-				System.out.println("Fulfilment by Amazon verification failed");
+				System.out.println("Fulfilment by Amazon URL verification failed");
 			}
 			Thread.sleep(2000);
 			driver.navigate().back();
@@ -335,7 +335,7 @@ public class DashboardPageTestCases {
 			if(url_actual8.contains(url_expected8)) {
 				System.out.println("Advertise Your Products URL is verified");
 			}else {
-				System.out.println("Advertise Your Products verification failed");
+				System.out.println("Advertise Your Products URL verification failed");
 			}
 			Thread.sleep(2000);
 			driver.navigate().back();
@@ -347,12 +347,105 @@ public class DashboardPageTestCases {
 			if(url_actual9.contains(url_expected9)) {
 				System.out.println("Amazon Pay on Merchants URL is verified");
 			}else {
-				System.out.println("Amazon Pay on Merchants verification failed");
+				System.out.println("Amazon Pay on Merchants URL verification failed");
 			}
 			Thread.sleep(2000);
 			driver.navigate().back();
 		}
 		
+		@Test(priority = 15)
+		public void TestCaseLetUsHelpYouVerify() throws InterruptedException {
+			// Link1
+			DashboardPageVariable.covid19AndAmazonbutton.click();
+			Thread.sleep(2000);
+			String url_expected1 = "footer_covid";
+			String url_actual1 = driver.getCurrentUrl();
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("COVID-19 and Amazon URL is verified");
+			}else {
+				System.out.println("COVID-19 and Amazon URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link2
+			DashboardPageVariable.yourAccountButton.click();
+			Thread.sleep(2000);
+			String url_expected2 = "footer_ya";
+			String url_actual2 = driver.getCurrentUrl();
+			if(url_actual2.contains(url_expected2)) {
+				System.out.println("Your Account URL is verified");
+			}else {
+				System.out.println("Your Account URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link3
+			DashboardPageVariable.returnsCentreButton.click();
+			Thread.sleep(2000);
+			String url_expected3 = "https://www.amazon.in/ap/signin";
+			String url_actual3 = driver.getCurrentUrl();
+			if(url_actual3.contains(url_expected3)) {
+				System.out.println("Returns Centre URL is verified");
+			}else {
+				System.out.println("Returns Centre URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link4
+			DashboardPageVariable.recallsAndProductSafetyAlertsButton.click();
+			Thread.sleep(2000);
+			String url_expected4 = "https://www.amazon.in/ap/signin";
+			String url_actual4 = driver.getCurrentUrl();
+			if(url_actual4.contains(url_expected4)) {
+				System.out.println("Recalls and Product Safety Alerts URL is verified");
+			}else {
+				System.out.println("Recalls and Product Safety Alerts URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link5
+			DashboardPageVariable.purchaseProtectionButton.click();
+			Thread.sleep(2000);
+			String url_expected5 = "https://www.amazon.in/gp/help/customer/";
+			String url_actual5 = driver.getCurrentUrl();
+			if(url_actual5.contains(url_expected5)) {
+				System.out.println("100% Purchase Protection URL is verified");
+			}else {
+				System.out.println("100% Purchase Protection URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link6
+			DashboardPageVariable.amazonAppDownloadButton.click();
+			Thread.sleep(2000);
+			String url_expected6 = "footer_mobapp";
+			String url_actual6 = driver.getCurrentUrl();
+			if(url_actual6.contains(url_expected6)) {
+				System.out.println("Amazon App Download URL is verified");
+			}else {
+				System.out.println("Amazon App Download URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+			
+			// Link7
+			DashboardPageVariable.helpButton.click();
+			Thread.sleep(2000);
+			String url_expected7 = "https://www.amazon.in/gp/help/customer";
+			String url_actual7 = driver.getCurrentUrl();
+			if(url_actual7.contains(url_expected7)) {
+				System.out.println("Help URL is verified");
+			}else {
+				System.out.println("Help URL verification failed");
+			}
+			Thread.sleep(2000);
+			driver.navigate().back();
+		}
 		
 		
 		

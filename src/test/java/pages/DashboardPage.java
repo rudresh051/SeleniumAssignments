@@ -69,36 +69,18 @@ public class DashboardPage {
 	WebElement signinButton;
 	
 	// Get to Know Us
-	@FindBy(xpath = "//a[@href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']")
-	WebElement aboutUsButton;
-	
-	@FindBy(xpath = "//a[@href='https://amazon.jobs']")
-	WebElement careersPageButton;
-	
-	@FindBy(xpath = "//a[@href='https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer']")
-	WebElement pressReleaseButton;
-	
-	@FindBy(xpath = "//a[@href='https://www.amazon.science']")
-	WebElement amazonSciencePageButton;
+	@FindBy(xpath = "//a[@href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']") WebElement aboutUsButton;
+	@FindBy(xpath = "//a[@href='https://amazon.jobs']") WebElement careersPageButton;
+	@FindBy(xpath = "//a[@href='https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer']") WebElement pressReleaseButton;
+	@FindBy(xpath = "//a[@href='https://www.amazon.science']") WebElement amazonSciencePageButton;
 	
 	// Connect with Us
-	@FindBy(xpath = "(//a[@class='nav_a'])[5]")
-	WebElement facebookPageButton;
-	
-	@FindBy(xpath = "//a[@href='http://www.facebook.com/AmazonIN']")
-	WebElement goToFacebookPageButton;
-	
-	@FindBy(xpath = "(//a[@class='nav_a'])[6]")
-	WebElement twitterPageButton;
-	
-	@FindBy(xpath = "//a[@href='http://twitter.com/AmazonIN']")
-	WebElement goToTwitterPageButton;
-	
-	@FindBy(xpath = "(//a[@class='nav_a'])[7]")
-	WebElement instagramPageButton;
-	
-	@FindBy(xpath = "//a[@href='https://www.instagram.com/amazondotin']")
-	WebElement goToInstagramPageButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[5]") WebElement facebookPageButton;
+	@FindBy(xpath = "//a[@href='http://www.facebook.com/AmazonIN']") WebElement goToFacebookPageButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[6]") WebElement twitterPageButton;
+	@FindBy(xpath = "//a[@href='http://twitter.com/AmazonIN']") WebElement goToTwitterPageButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[7]") WebElement instagramPageButton;
+	@FindBy(xpath = "//a[@href='https://www.instagram.com/amazondotin']") WebElement goToInstagramPageButton;
 	
 	// Make Money with Us
 	@FindBy(xpath = "(//a[@class='nav_a'])[8]") WebElement sellOnAmazonButton;
@@ -111,6 +93,15 @@ public class DashboardPage {
 	@FindBy(xpath = "(//a[@class='nav_a'])[15]") WebElement advertiseYourProductsButton;
 	@FindBy(xpath = "(//a[@class='nav_a'])[16]") WebElement amazonPayOnMerchantsButton;
 	
+	// Let us help you
+	@FindBy(xpath = "(//a[@class='nav_a'])[17]") WebElement covid19AndAmazonbutton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[18]") WebElement yourAccountButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[19]") WebElement returnsCentreButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[20]") WebElement recallsAndProductSafetyAlertsButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[21]") WebElement purchaseProtectionButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[22]") WebElement amazonAppDownloadButton;
+	@FindBy(xpath = "(//a[@class='nav_a'])[23]") WebElement helpButton;
+
 	
 	
 	// Methods
