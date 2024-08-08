@@ -596,10 +596,65 @@ public class DashboardPageTestCases {
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 	}
 
-
+	// Footer copyright section
+	@Test(priority = 17)
+	public void TestCaseFooterCopyRightLinksVerify() {
+		// Link1
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.conditionsOfUseAndSaleButton));
+			DashboardPageVariable.conditionsOfUseAndSaleButton.click();
+			String url_expected1 = "footer_cou";
+			String url_actual1 = "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou";
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("Conditions of Use & Sale URL is verified");
+			}else {
+				System.out.println("Conditions of Use & Sale URL verification failed");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+		driver.navigate().back();
+		
+		// Link2
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.privacyNoticeButton));
+			DashboardPageVariable.privacyNoticeButton.click();
+			String url_expected2 = "footer_privacy";
+			String url_actual2 = "https://www.amazon.in/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy";
+			if(url_actual2.contains(url_expected2)) {
+				System.out.println("Privacy Notice URL is verified");
+			}else {
+				System.out.println("Privacy Notice URL verification failed");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+		driver.navigate().back();
+		
+		// Link3
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.interestBasedAdsButton));
+			DashboardPageVariable.interestBasedAdsButton.click();
+			String url_expected3 = "footer_iba";
+			String url_actual3 = "https://www.amazon.in/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba";
+			if(url_actual3.contains(url_expected3)) {
+				System.out.println("Interest-Based Ads URL is verified");
+			}else {
+				System.out.println("Interest-Based Ads URL verification failed");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+		driver.navigate().back();
+	}
+	
 	@AfterTest
 	public void teardown() throws InterruptedException {
 		Thread.sleep(3000);

@@ -116,7 +116,11 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='/now?ref=footer_amznow']") WebElement primeNowButton;
 	@FindBy(xpath = "//a[@href='/music/prime?ref=footer_apm']") WebElement amazonPrimeMusicButton;
 
-
+	// Amazon Footer CopyRight Section
+	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou']") WebElement conditionsOfUseAndSaleButton;
+	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy']") WebElement privacyNoticeButton;
+	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba']") WebElement interestBasedAdsButton;
+	
 	// Methods
 	public void clickOnCarousalLeftButton() {
 		CarousalLeftButton.click();
