@@ -106,7 +106,8 @@ public class DashboardPage {
 	@FindBy(xpath = "(//a[@class='nav_a'])[23]") WebElement helpButton;
 	
 	@FindBy(xpath = "//a[@href='https://www.abebooks.com/']") WebElement abeBooksButton;
-
+	@FindBy(xpath = "//a[@href='https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter']") 
+	WebElement amazonWebServicesButton;
 	
 	
 	// Methods
