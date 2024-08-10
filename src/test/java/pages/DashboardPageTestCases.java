@@ -1,6 +1,7 @@
 package pages;
 
 import java.time.Duration;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -21,6 +23,7 @@ public class DashboardPageTestCases {
 	private WebDriver driver;
 	private DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
 	WebDriverWait wait;
+	Select sel;
 
 
 	@BeforeTest
@@ -619,7 +622,7 @@ public class DashboardPageTestCases {
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 		driver.navigate().back();
-		
+
 		// Link2
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.privacyNoticeButton));
@@ -636,7 +639,7 @@ public class DashboardPageTestCases {
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 		driver.navigate().back();
-		
+
 		// Link3
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.interestBasedAdsButton));
@@ -654,22 +657,22 @@ public class DashboardPageTestCases {
 		}
 		driver.navigate().back();
 	}
-	
+
 	@Test(priority = 18)
 	public void TestCaseAmazonTextVerify() {
-		
+
 		try {
 			wait.until(ExpectedConditions.visibilityOf(DashboardPageVariable.amazonText));
 			String expected_text = "© 1996-2024, Amazon.com, Inc. or its affiliates";
 			String actual_text = "© 1996-2024, Amazon.com, Inc. or its affiliates";
 			Assert.assertEquals(actual_text, expected_text);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 	}
-	
+
 	@Test(priority = 19)
 	public void TestCaseAmazonFooterLogoVerify() {
 		DashboardPageVariable.amazonFooterLogo.click();
@@ -678,6 +681,84 @@ public class DashboardPageTestCases {
 		Assert.assertEquals(actual_url, expected_url);
 	}
 	
+	@Test(priority = 20)
+	public void TestCaseLanguageChangeFromFooterVerify() throws InterruptedException {
+		// Change to Hindi
+		DashboardPageVariable.footerLanguageButton.click();
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.fromFooterHindiButton));
+			DashboardPageVariable.fromFooterHindiButton.click();
+			DashboardPageVariable.languageSaveButton.click();
+			String url_expected = "hi_IN";
+			String url_actual = "https://www.amazon.in/ref=footer_logo?language=hi_IN";
+			if(url_actual.contains(url_expected)) {
+				System.out.println("Language Hindi URL is verified");
+			}
+			else {
+				System.out.println("Language Hindi URL verification failed");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+		Thread.sleep(3000);
+		
+		// Change to English
+		DashboardPageVariable.footerLanguageButton.click();
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.fromFooterEnglishButton));
+			DashboardPageVariable.fromFooterEnglishButton.click();
+			DashboardPageVariable.languageSaveButton.click();
+			String url_expected = "en_IN";
+			String url_actual = "https://www.amazon.in/ref=nav_logo?language=en_IN";
+			if(url_actual.contains(url_expected)) {
+				System.out.println("Language English URL is verified");
+			}
+			else {
+				System.out.println("Language English URL verification failed");
+			}
+			Thread.sleep(3000);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+	}
+	
+	@Test(priority = 21)
+	public void TestCaseSelectCountryVerify() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.footerCountryButton));
+			DashboardPageVariable.footerCountryButton.click();
+			String url_expected1 = "customer-preferences/country";
+			String url_actual1 = "https://www.amazon.in/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2Fref%3Dnav_logo&ref_=footer_icp_cp";
+			if(url_actual1.contains(url_expected1)) {
+				System.out.println("Choose a country URL is verified");
+			}else {
+				System.out.println("Choose a country URL verification failed");
+			}
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.countryDropdownButton));
+			DashboardPageVariable.countryDropdownButton.click();
+			DashboardPageVariable.selectUnitedStatesButton.click();
+			// Step1 - Switch the control from parent to window child window
+			String child_url = "https://www.amazon.com/?ref_=icp_country_from_in";
+			String parent_window = driver.getWindowHandle();
+			
+			Set<String> all_ids = driver.getWindowHandles();
+			for(String single_id : all_ids) {
+				driver.switchTo().window(single_id);
+				System.out.println(driver.switchTo().window(single_id));
+				if(driver.getCurrentUrl().contains(child_url)) {
+					break;
+				}
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+	}
+
 	@AfterTest
 	public void teardown() throws InterruptedException {
 		Thread.sleep(3000);

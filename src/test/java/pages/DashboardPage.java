@@ -121,7 +121,18 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy']") WebElement privacyNoticeButton;
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba']") WebElement interestBasedAdsButton;
 	@FindBy(xpath = "//span[text()='© 1996-2024, Amazon.com, Inc. or its affiliates']") WebElement amazonText;
+	
 	@FindBy(css = "div.nav-logo-base") WebElement amazonFooterLogo;
+	@FindBy(id = "icp-touch-link-language") WebElement footerLanguageButton;
+	@FindBy(xpath = "(//div[@class='a-radio a-radio-fancy'])[2]") WebElement fromFooterHindiButton;
+	@FindBy(xpath = "(//div[@class='a-radio a-radio-fancy'])[1]") WebElement fromFooterEnglishButton;
+	@FindBy(xpath = "//input[@class='a-button-input']") WebElement languageSaveButton;
+	
+	@FindBy(id = "icp-touch-link-country") WebElement footerCountryButton;
+	@FindBy(xpath = "//span[@class='a-button-text a-declarative']") WebElement countryDropdownButton;
+	@FindBy(xpath = "//li[@id='icp-dropdown-item-22']") WebElement selectUnitedStatesButton;
+	@FindBy(xpath = "(//input[@type='submit'])[2]") WebElement countrySubmitButton;
+	
 	
 	// Methods
 	public void clickOnCarousalLeftButton() {
