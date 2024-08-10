@@ -23,53 +23,20 @@ public class DashboardPage {
 	// Find all WebElements and Put it here as variable
 	// create methods of operation to be performed on Webelements variables
 
-	@FindBy(xpath = "//i[@class='a-icon a-icon-previous-rounded']")
-	WebElement CarousalLeftButton;
-
-	@FindBy(xpath = "//i[@class='a-icon a-icon-next-rounded']")
-	WebElement CarousalRightButton;
-
-	@FindBy(id="desktop-banner")
-	WebElement CarousalBanner;
-
-	@FindBy(id="nav-hamburger-menu")
-	WebElement HamburgerMenuButton;
-
-	@FindBy(id = "twotabsearchtextbox")
-	WebElement SearchBar;
-
-	@FindBy(xpath="(//div[@class='s-suggestion s-suggestion-ellipsis-direction'])[1]")
-	WebElement firstOption;
-
-	@FindBy(xpath="//span[@class='s-pagination-item s-pagination-selected']")
-	WebElement pagination2ndButton;
-
-	@FindBy(xpath="//input[@title='Add to Shopping Cart']")
-	WebElement addCartButton;
-
-	@FindBy(css = "div.hmenu-close-icon")
-	WebElement hamClosebutton;
-
-	@FindBy(xpath = "//a[@href='/ref=nav_logo']")
-	WebElement amazonLogo;
-
-	@FindBy(id = "glow-ingress-block")
-	WebElement location;
-
-	@FindBy(className="GLUX_Full_Width")
-	WebElement pincode;
-
-	@FindBy(xpath = "(//input[@class='a-button-input'])[3]")
-	WebElement applyPinCodeButton;
-
-	@FindBy(xpath = "(//a[@aria-label='Choose a language for shopping.'])[1]")
-	WebElement languageButton;
-
-	@FindBy(xpath = "(//i[@class='a-icon a-icon-radio'])[2]")
-	WebElement hindiRadioButton;
-
-	@FindBy(id = "nav-link-accountList")
-	WebElement signinButton;
+	@FindBy(xpath = "//i[@class='a-icon a-icon-previous-rounded']") WebElement CarousalLeftButton;
+	@FindBy(xpath = "//i[@class='a-icon a-icon-next-rounded']") WebElement CarousalRightButton;
+	@FindBy(id="desktop-banner") WebElement CarousalBanner;
+	@FindBy(id = "twotabsearchtextbox") WebElement SearchBar;
+	@FindBy(xpath="(//div[@class='s-suggestion s-suggestion-ellipsis-direction'])[1]") WebElement firstOption;
+	@FindBy(xpath="//span[@class='s-pagination-item s-pagination-selected']") WebElement pagination2ndButton;
+	@FindBy(xpath="//input[@title='Add to Shopping Cart']") WebElement addCartButton;
+	@FindBy(xpath = "//a[@href='/ref=nav_logo']") WebElement amazonLogo;
+	@FindBy(id = "glow-ingress-block") WebElement location;
+	@FindBy(className="GLUX_Full_Width") WebElement pincode;
+	@FindBy(xpath = "(//input[@class='a-button-input'])[3]") WebElement applyPinCodeButton;
+	@FindBy(xpath = "(//a[@aria-label='Choose a language for shopping.'])[1]") WebElement languageButton;
+	@FindBy(xpath = "(//i[@class='a-icon a-icon-radio'])[2]") WebElement hindiRadioButton;
+	@FindBy(id = "nav-link-accountList") WebElement signinButton;
 
 	// Get to Know Us
 	@FindBy(xpath = "//a[@href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']") WebElement aboutUsButton;
@@ -121,19 +88,35 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy']") WebElement privacyNoticeButton;
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba']") WebElement interestBasedAdsButton;
 	@FindBy(xpath = "//span[text()='© 1996-2024, Amazon.com, Inc. or its affiliates']") WebElement amazonText;
-	
+
 	@FindBy(css = "div.nav-logo-base") WebElement amazonFooterLogo;
 	@FindBy(id = "icp-touch-link-language") WebElement footerLanguageButton;
 	@FindBy(xpath = "(//div[@class='a-radio a-radio-fancy'])[2]") WebElement fromFooterHindiButton;
 	@FindBy(xpath = "(//div[@class='a-radio a-radio-fancy'])[1]") WebElement fromFooterEnglishButton;
 	@FindBy(xpath = "//input[@class='a-button-input']") WebElement languageSaveButton;
-	
+
 	@FindBy(id = "icp-touch-link-country") WebElement footerCountryButton;
 	@FindBy(xpath = "//span[@class='a-button-text a-declarative']") WebElement countryDropdownButton;
 	@FindBy(xpath = "//li[@id='icp-dropdown-item-22']") WebElement selectUnitedStatesButton;
 	@FindBy(xpath = "(//input[@type='submit'])[2]") WebElement countrySubmitButton;
+
+	// Left Side Navigation Verification
+	@FindBy(id="nav-hamburger-menu") WebElement HamburgerMenuButton;
+	@FindBy(css = "div.hmenu-close-icon") WebElement hamClosebutton;
+	// Trending Locators
+	@FindBy(xpath = "(//a[text()='Best Sellers'])[2]") WebElement bestSellersButton;
+	@FindBy(xpath = "(//a[text()='New Releases'])[2]") WebElement newReleaseButton;
+	@FindBy(xpath = "(//a[text()='Movers and Shakers'])") WebElement moversAndShakersButton;
+	// Digital content and devices
+	@FindBy(xpath = "(//a[text()='Amazon miniTV- FREE entertainment'])") WebElement amazonMiniTvButton;
+	@FindBy(xpath = "//div[text()='Echo & Alexa']") WebElement amazonAlexaForwardArrowButton;
+	@FindBy(xpath = "//a[text()='See all devices with Alexa']") WebElement seeAllDevicesWithAlexaButton;
 	
 	
+	
+	
+	
+
 	// Methods
 	public void clickOnCarousalLeftButton() {
 		CarousalLeftButton.click();
