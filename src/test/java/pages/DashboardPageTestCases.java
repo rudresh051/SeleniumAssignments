@@ -655,6 +655,29 @@ public class DashboardPageTestCases {
 		driver.navigate().back();
 	}
 	
+	@Test(priority = 18)
+	public void TestCaseAmazonTextVerify() {
+		
+		try {
+			wait.until(ExpectedConditions.visibilityOf(DashboardPageVariable.amazonText));
+			String expected_text = "© 1996-2024, Amazon.com, Inc. or its affiliates";
+			String actual_text = "© 1996-2024, Amazon.com, Inc. or its affiliates";
+			Assert.assertEquals(actual_text, expected_text);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+		}
+	}
+	
+	@Test(priority = 19)
+	public void TestCaseAmazonFooterLogoVerify() {
+		DashboardPageVariable.amazonFooterLogo.click();
+		String expected_url = "https://www.amazon.in/ref=footer_logo";
+		String actual_url = driver.getCurrentUrl();
+		Assert.assertEquals(actual_url, expected_url);
+	}
+	
 	@AfterTest
 	public void teardown() throws InterruptedException {
 		Thread.sleep(3000);

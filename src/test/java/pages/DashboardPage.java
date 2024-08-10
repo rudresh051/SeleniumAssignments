@@ -120,6 +120,8 @@ public class DashboardPage {
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou']") WebElement conditionsOfUseAndSaleButton;
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy']") WebElement privacyNoticeButton;
 	@FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba']") WebElement interestBasedAdsButton;
+	@FindBy(xpath = "//span[text()='© 1996-2024, Amazon.com, Inc. or its affiliates']") WebElement amazonText;
+	@FindBy(css = "div.nav-logo-base") WebElement amazonFooterLogo;
 	
 	// Methods
 	public void clickOnCarousalLeftButton() {
