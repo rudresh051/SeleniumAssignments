@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-10T09:40:58Z" name="Default suite" finished-at="2024-08-10T09:41:20Z" duration-ms="22425">
+  <suite started-at="2024-08-10T10:53:34Z" name="Default suite" finished-at="2024-08-10T10:53:55Z" duration-ms="21024">
     <groups>
     </groups>
-    <test started-at="2024-08-10T09:40:58Z" name="Default test" finished-at="2024-08-10T09:41:20Z" duration-ms="22425">
+    <test started-at="2024-08-10T10:53:34Z" name="Default test" finished-at="2024-08-10T10:53:55Z" duration-ms="21024">
       <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:10:58Z" name="setup" finished-at="2024-08-10T15:11:03Z" duration-ms="5529" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-10T16:23:34Z" name="setup" finished-at="2024-08-10T16:23:39Z" duration-ms="5593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:03Z" name="TestCaseVerifyTitle" finished-at="2024-08-10T15:11:04Z" duration-ms="191" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-10T16:23:39Z" name="TestCaseVerifyTitle" finished-at="2024-08-10T16:23:40Z" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseAmazonTextVerify()[pri:18, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:04Z" name="TestCaseAmazonTextVerify" finished-at="2024-08-10T15:11:04Z" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonTextVerify -->
-        <test-method signature="TestCaseAmazonFooterLogoVerify()[pri:19, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:04Z" name="TestCaseAmazonFooterLogoVerify" finished-at="2024-08-10T15:11:06Z" duration-ms="2166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonFooterLogoVerify -->
-        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:06Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-10T15:11:15Z" duration-ms="9036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLanguageChangeFromFooterVerify -->
-        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:15Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-10T15:11:17Z" duration-ms="1680" status="PASS">
+        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-10T16:23:40Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-10T16:23:51Z" duration-ms="11915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSelectCountryVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T15:11:17Z" name="teardown" finished-at="2024-08-10T15:11:20Z" duration-ms="3616" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-10T16:23:51Z" name="teardown" finished-at="2024-08-10T16:23:55Z" duration-ms="3374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -5,6 +5,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -680,7 +681,7 @@ public class DashboardPageTestCases {
 		String actual_url = driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url);
 	}
-	
+
 	@Test(priority = 20)
 	public void TestCaseLanguageChangeFromFooterVerify() throws InterruptedException {
 		// Change to Hindi
@@ -702,7 +703,7 @@ public class DashboardPageTestCases {
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 		Thread.sleep(3000);
-		
+
 		// Change to English
 		DashboardPageVariable.footerLanguageButton.click();
 		try {
@@ -718,13 +719,13 @@ public class DashboardPageTestCases {
 				System.out.println("Language English URL verification failed");
 			}
 			Thread.sleep(3000);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
 	}
-	
+
 	@Test(priority = 21)
 	public void TestCaseSelectCountryVerify() {
 		try {
@@ -740,19 +741,37 @@ public class DashboardPageTestCases {
 			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.countryDropdownButton));
 			DashboardPageVariable.countryDropdownButton.click();
 			DashboardPageVariable.selectUnitedStatesButton.click();
+			DashboardPageVariable.countrySubmitButton.click();
 			// Step1 - Switch the control from parent to window child window
 			String child_url = "https://www.amazon.com/?ref_=icp_country_from_in";
-			String parent_window = driver.getWindowHandle();
-			
+			String parent_url = "https://www.amazon.in/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_icp_cp";
+
+			String parent_window_id = driver.getWindowHandle();
+			System.out.println("parent_window_id" + " " + parent_window_id);
+
 			Set<String> all_ids = driver.getWindowHandles();
+
 			for(String single_id : all_ids) {
 				driver.switchTo().window(single_id);
-				System.out.println(driver.switchTo().window(single_id));
 				if(driver.getCurrentUrl().contains(child_url)) {
 					break;
 				}
 			}
-			
+
+			String url_expected_usa = "https://www.amazon.com/?ref_=icp_country_from_in";
+			String url_actual_usa = driver.getCurrentUrl();
+			Assert.assertEquals(url_actual_usa, url_expected_usa);
+
+			// Now switch back to parent window
+			for(String single_id : all_ids) {
+				driver.switchTo().window(single_id);
+				if(driver.getCurrentUrl().contains(parent_url)) {
+					break;
+				}
+			}
+			driver.navigate().back();
+			Thread.sleep(6000);
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
