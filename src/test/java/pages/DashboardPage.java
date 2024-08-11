@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -113,9 +114,8 @@ public class DashboardPage {
 	// Digital content and devices
 	@FindBy(xpath = "(//a[text()='Amazon miniTV- FREE entertainment'])") WebElement amazonMiniTvButton;
 	@FindBy(xpath = "//div[text()='Echo & Alexa']") WebElement amazonAlexaForwardArrowButton;
-	@FindBy(xpath = "//a[text()='See all devices with Alexa']") WebElement seeAllDevicesWithAlexaButton;
-	
-	
+	@FindBy(xpath = "(//li//a[@class='hmenu-item'])[37]") WebElement seeAllDevicesWithAlexaButton;
+	@FindBy(xpath="//a[normalize-space()='Meet Alexa']") WebElement meetAlexa;
 	
 	
 	

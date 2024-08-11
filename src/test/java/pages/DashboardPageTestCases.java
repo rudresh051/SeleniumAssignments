@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
@@ -26,6 +27,7 @@ public class DashboardPageTestCases {
 	private DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
 	WebDriverWait wait;
 	Select sel;
+	
 
 
 	@BeforeTest
@@ -869,6 +871,7 @@ public class DashboardPageTestCases {
 		}
 	}
 
+	// Side Navigation Trending URL Verification
 	@Test(priority = 22)
 	public void TestCaseSideNavigationTrendingUrlsVerify() throws InterruptedException {
 		Thread.sleep(5000);
@@ -926,7 +929,7 @@ public class DashboardPageTestCases {
 		}
 	}
 
-	// Digital content and Devices
+	// Side Navigation Digital content and Devices
 	@Test(priority = 23)
 	public void TestCaseSideNavigationDigitalContentAndDevicesVerify() {
 		// Echo and Alexa
@@ -935,19 +938,24 @@ public class DashboardPageTestCases {
 			Thread.sleep(3000);
 			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.amazonAlexaForwardArrowButton));
 			DashboardPageVariable.amazonAlexaForwardArrowButton.click();
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 			e.printStackTrace();
 			Assert.fail("Test case failed due to an exception: " + e.getMessage());
 		}
-		// Echo and Alexa - a
+		
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.seeAllDevicesWithAlexaButton));
-			DashboardPageVariable.seeAllDevicesWithAlexaButton.click();
-			String url_expected2 = "https://www.amazon.in/gp/browse.html?node=14156834031&ref_=nav_em__shopall_catpage_0_2_2_2";
-			String url_actual2 = driver.getCurrentUrl();
-			Assert.assertEquals(url_actual2, url_expected2);
+			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.meetAlexa));
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click();", DashboardPageVariable.meetAlexa);
+			Thread.sleep(3000);
+			String url_expected3 = "https://www.amazon.in/gp/browse.html?node=14172468031&ref_=nav_em__shopall_meetalexa_0_2_2_4";
+			String url_actual3 = driver.getCurrentUrl();
+			Assert.assertEquals(url_actual3, url_expected3);
 			driver.navigate().back();
+			Thread.sleep(3000);
+			
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
