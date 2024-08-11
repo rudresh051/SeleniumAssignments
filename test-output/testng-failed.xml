@@ -12,8 +12,8 @@
         <methods>
           <include name="TestCaseSideNavigationDigitalContentAndDevicesVerify"/>
           <include name="TestCaseSideNavigationTrendingUrlsVerify"/>
-          <include name="TestCaseSelectCountryVerify"/>
           <include name="teardown"/>
+          <include name="TestCaseLetUsHelpYouVerify"/>
           <include name="setup"/>
         </methods>
       </class> <!-- pages.DashboardPageTestCases -->
