@@ -1,109 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="23" passed="23" failed="0" skipped="0">
+<testng-results total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-10T14:39:20Z" name="Default suite" finished-at="2024-08-10T14:43:43Z" duration-ms="263237">
+  <suite started-at="2024-08-10T18:02:59Z" name="Default suite" finished-at="2024-08-10T18:03:56Z" duration-ms="57021">
     <groups>
     </groups>
-    <test started-at="2024-08-10T14:39:20Z" name="Default test" finished-at="2024-08-10T14:43:43Z" duration-ms="263237">
+    <test started-at="2024-08-10T18:02:59Z" name="Default test" finished-at="2024-08-10T18:03:56Z" duration-ms="57021">
       <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:20Z" name="setup" finished-at="2024-08-10T20:09:24Z" duration-ms="4031" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:32:59Z" name="setup" finished-at="2024-08-10T23:33:05Z" duration-ms="6157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:24Z" name="TestCaseVerifyTitle" finished-at="2024-08-10T20:09:24Z" duration-ms="159" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:05Z" name="TestCaseVerifyTitle" finished-at="2024-08-10T23:33:08Z" duration-ms="3050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:24Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-10T20:09:32Z" duration-ms="8240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnCarousalLeftButton -->
-        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:32Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-10T20:09:40Z" duration-ms="7805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnCarousalRightButton -->
-        <test-method signature="TestCaseClickOnCarousalBanner()[pri:4, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:40Z" name="TestCaseClickOnCarousalBanner" finished-at="2024-08-10T20:09:48Z" duration-ms="7921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnCarousalBanner -->
-        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:48Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-10T20:09:52Z" duration-ms="4269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnHamburgerMenuButton -->
-        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:09:52Z" name="TestCaseSearchForProduct" finished-at="2024-08-10T20:10:05Z" duration-ms="13189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSearchForProduct -->
-        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:05Z" name="TestCaseAmazonLogo" finished-at="2024-08-10T20:10:07Z" duration-ms="1440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonLogo -->
-        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:07Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-10T20:10:16Z" duration-ms="8675" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseEnterCurrentPinCode -->
-        <test-method signature="TestCaseChangeWebsiteLanguage()[pri:9, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:16Z" name="TestCaseChangeWebsiteLanguage" finished-at="2024-08-10T20:10:25Z" duration-ms="9856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseChangeWebsiteLanguage -->
-        <test-method signature="TestCaseSignInPage()[pri:10, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:25Z" name="TestCaseSignInPage" finished-at="2024-08-10T20:10:30Z" duration-ms="4906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSignInPage -->
-        <test-method signature="TestCaseClickOnAboutUsButton()[pri:11, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:30Z" name="TestCaseClickOnAboutUsButton" finished-at="2024-08-10T20:10:35Z" duration-ms="4753" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnAboutUsButton -->
-        <test-method signature="TestCaseFooterGetToKnowUsLinksVerification()[pri:12, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:35Z" name="TestCaseFooterGetToKnowUsLinksVerification" finished-at="2024-08-10T20:10:49Z" duration-ms="13825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseFooterGetToKnowUsLinksVerification -->
-        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:10:49Z" name="TestCaseSocialMediaPages" finished-at="2024-08-10T20:11:14Z" duration-ms="24858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSocialMediaPages -->
-        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:11:14Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-10T20:11:51Z" duration-ms="37571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseMakeMoneyWithUsLinksVerify -->
-        <test-method signature="TestCaseLetUsHelpYouVerify()[pri:15, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:11:51Z" name="TestCaseLetUsHelpYouVerify" finished-at="2024-08-10T20:12:29Z" duration-ms="38159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLetUsHelpYouVerify -->
-        <test-method signature="TestCaseAmazonServiceCategoriesVerify()[pri:16, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:12:29Z" name="TestCaseAmazonServiceCategoriesVerify" finished-at="2024-08-10T20:12:59Z" duration-ms="29506" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonServiceCategoriesVerify -->
-        <test-method signature="TestCaseFooterCopyRightLinksVerify()[pri:17, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:12:59Z" name="TestCaseFooterCopyRightLinksVerify" finished-at="2024-08-10T20:13:02Z" duration-ms="3272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseFooterCopyRightLinksVerify -->
-        <test-method signature="TestCaseAmazonTextVerify()[pri:18, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:02Z" name="TestCaseAmazonTextVerify" finished-at="2024-08-10T20:13:02Z" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonTextVerify -->
-        <test-method signature="TestCaseAmazonFooterLogoVerify()[pri:19, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:02Z" name="TestCaseAmazonFooterLogoVerify" finished-at="2024-08-10T20:13:03Z" duration-ms="1153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonFooterLogoVerify -->
-        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:03Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-10T20:13:12Z" duration-ms="9014" status="PASS">
+        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:08Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-10T23:33:23Z" duration-ms="15189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseLanguageChangeFromFooterVerify -->
-        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:12Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-10T20:13:23Z" duration-ms="10065" status="PASS">
+        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:23Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-10T23:33:40Z" duration-ms="16489" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to an exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='a-button-text a-declarative']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to an exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='a-button-text a-declarative']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.testng.Assert.fail(Assert.java:94)
+	at pages.DashboardPageTestCases.TestCaseSelectCountryVerify(DashboardPageTestCases.java:792)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSelectCountryVerify -->
-        <test-method signature="TestCaseSideNavigationTrendingUrlsVerify()[pri:22, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:23Z" name="TestCaseSideNavigationTrendingUrlsVerify" finished-at="2024-08-10T20:13:26Z" duration-ms="3472" status="PASS">
+        <test-method signature="TestCaseSideNavigationTrendingUrlsVerify()[pri:22, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:40Z" name="TestCaseSideNavigationTrendingUrlsVerify" finished-at="2024-08-10T23:33:51Z" duration-ms="11640" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to an exception: element click intercepted: Element <a href="javascript: void(0)" id="nav-hamburger-menu" role="button" aria-label="Open Menu" data-csa-c-type="widget" data-csa-c-slot-id="HamburgerMenuDesktop" data-csa-c-interaction-events="click" data-csa-c-id="3vtmuk-iq1vnv-ti5tu3-qcor1r">...</a> is not clickable at point (40, 79). Other element would receive the click: <div class="hmenu-item hmenu-title ">...</div>
+  (Session info: chrome=127.0.6533.99)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [878a79c817a1df6669e5c34bd2e8c284, clickElement {id=f.53E67021BE19FDE388FF34409A23D2FB.d.AA41A59B07A72C30F09BDA710B84FB3A.e.299}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (878a79c817a1df6669e5c34bd2e8c284)] -> id: nav-hamburger-menu]
+Session ID: 878a79c817a1df6669e5c34bd2e8c284]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to an exception: element click intercepted: Element <a href="javascript: void(0)" id="nav-hamburger-menu" role="button" aria-label="Open Menu" data-csa-c-type="widget" data-csa-c-slot-id="HamburgerMenuDesktop" data-csa-c-interaction-events="click" data-csa-c-id="3vtmuk-iq1vnv-ti5tu3-qcor1r">...</a> is not clickable at point (40, 79). Other element would receive the click: <div class="hmenu-item hmenu-title ">...</div>
+  (Session info: chrome=127.0.6533.99)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [878a79c817a1df6669e5c34bd2e8c284, clickElement {id=f.53E67021BE19FDE388FF34409A23D2FB.d.AA41A59B07A72C30F09BDA710B84FB3A.e.299}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (878a79c817a1df6669e5c34bd2e8c284)] -> id: nav-hamburger-menu]
+Session ID: 878a79c817a1df6669e5c34bd2e8c284
+	at org.testng.Assert.fail(Assert.java:94)
+	at pages.DashboardPageTestCases.TestCaseSideNavigationTrendingUrlsVerify(DashboardPageTestCases.java:826)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSideNavigationTrendingUrlsVerify -->
-        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:26Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-10T20:13:39Z" duration-ms="12893" status="PASS">
+        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:51Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-10T23:33:53Z" duration-ms="1124" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to an exception: element click intercepted: Element <a href="javascript: void(0)" id="nav-hamburger-menu" role="button" aria-label="Open Menu" data-csa-c-type="widget" data-csa-c-slot-id="HamburgerMenuDesktop" data-csa-c-interaction-events="click" data-csa-c-id="3vtmuk-iq1vnv-ti5tu3-qcor1r">...</a> is not clickable at point (40, 79). Other element would receive the click: <div class="hmenu-item hmenu-title ">...</div>
+  (Session info: chrome=127.0.6533.99)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [878a79c817a1df6669e5c34bd2e8c284, clickElement {id=f.53E67021BE19FDE388FF34409A23D2FB.d.AA41A59B07A72C30F09BDA710B84FB3A.e.299}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (878a79c817a1df6669e5c34bd2e8c284)] -> id: nav-hamburger-menu]
+Session ID: 878a79c817a1df6669e5c34bd2e8c284]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to an exception: element click intercepted: Element <a href="javascript: void(0)" id="nav-hamburger-menu" role="button" aria-label="Open Menu" data-csa-c-type="widget" data-csa-c-slot-id="HamburgerMenuDesktop" data-csa-c-interaction-events="click" data-csa-c-id="3vtmuk-iq1vnv-ti5tu3-qcor1r">...</a> is not clickable at point (40, 79). Other element would receive the click: <div class="hmenu-item hmenu-title ">...</div>
+  (Session info: chrome=127.0.6533.99)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [878a79c817a1df6669e5c34bd2e8c284, clickElement {id=f.53E67021BE19FDE388FF34409A23D2FB.d.AA41A59B07A72C30F09BDA710B84FB3A.e.299}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (878a79c817a1df6669e5c34bd2e8c284)] -> id: nav-hamburger-menu]
+Session ID: 878a79c817a1df6669e5c34bd2e8c284
+	at org.testng.Assert.fail(Assert.java:94)
+	at pages.DashboardPageTestCases.TestCaseSideNavigationDigitalContentAndDevicesVerify(DashboardPageTestCases.java:871)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSideNavigationDigitalContentAndDevicesVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-10T20:13:39Z" name="teardown" finished-at="2024-08-10T20:13:43Z" duration-ms="4092" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@4c1f22f3]" started-at="2024-08-10T23:33:53Z" name="teardown" finished-at="2024-08-10T23:33:56Z" duration-ms="3336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

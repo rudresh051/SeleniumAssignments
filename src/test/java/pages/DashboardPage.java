@@ -100,6 +100,9 @@ public class DashboardPage {
 	@FindBy(xpath = "//li[@id='icp-dropdown-item-22']") WebElement selectUnitedStatesButton;
 	@FindBy(xpath = "(//input[@type='submit'])[2]") WebElement countrySubmitButton;
 
+	// Back to top
+	@FindBy(xpath = "//span[@class='navFooterBackToTopText']") WebElement backToTopButton;
+	
 	// Left Side Navigation Verification
 	@FindBy(id="nav-hamburger-menu") WebElement HamburgerMenuButton;
 	@FindBy(css = "div.hmenu-close-icon") WebElement hamClosebutton;
