@@ -27,7 +27,7 @@ public class DashboardPageTestCases {
 	private DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
 	WebDriverWait wait;
 	Select sel;
-	
+
 
 
 	@BeforeTest
@@ -625,7 +625,7 @@ public class DashboardPageTestCases {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
 		}
-		
+
 
 
 		// Prime Now
@@ -944,7 +944,7 @@ public class DashboardPageTestCases {
 			e.printStackTrace();
 			Assert.fail("Test case failed due to an exception: " + e.getMessage());
 		}
-		
+
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(DashboardPageVariable.meetAlexa));
 			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -955,7 +955,7 @@ public class DashboardPageTestCases {
 			Assert.assertEquals(url_actual3, url_expected3);
 			driver.navigate().back();
 			Thread.sleep(3000);
-			
+
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
