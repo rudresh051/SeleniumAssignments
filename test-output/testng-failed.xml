@@ -6,4 +6,15 @@
       <class name="pages.DashboardPageTestCases"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="pages.DashboardPageTestCases">
+        <methods>
+          <include name="TestCaseSideNavigationDigitalContentAndDevicesVerify"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pages.DashboardPageTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

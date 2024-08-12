@@ -113,12 +113,13 @@ public class DashboardPage {
 	@FindBy(xpath = "(//a[text()='Movers and Shakers'])") WebElement moversAndShakersButton;
 	// Digital content and devices
 	@FindBy(xpath = "(//a[text()='Amazon miniTV- FREE entertainment'])") WebElement amazonMiniTvButton;
-	@FindBy(xpath = "//div[text()='Echo & Alexa']") WebElement amazonAlexaForwardArrowButton;
+	@FindBy(xpath = "//div[text()='Echo & Alexa']") WebElement echoAndAlexaForwardArrowButton;
 	@FindBy(xpath = "(//li//a[@class='hmenu-item'])[37]") WebElement seeAllDevicesWithAlexaButton;
 	@FindBy(xpath="//a[normalize-space()='Meet Alexa']") WebElement meetAlexa;
-	
-	
-	
+	@FindBy(xpath="//a[normalize-space()='Alexa Skills']") WebElement alexaSkills;
+	@FindBy(xpath="//a[normalize-space()='Alexa App']") WebElement alexaApp;
+	@FindBy(xpath="//a[normalize-space()='Alexa Smart Home']") WebElement alexaSmartHome;
+	@FindBy(xpath="//ul[@class='hmenu hmenu-visible hmenu-translateX']//a[@class='hmenu-item'][normalize-space()='Amazon Prime Music']") WebElement amazonPrimeMusic;
 
 	// Methods
 	public void clickOnCarousalLeftButton() {

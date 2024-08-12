@@ -1,25 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="23" passed="22" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-11T17:40:40Z" name="Default suite" finished-at="2024-08-11T17:41:12Z" duration-ms="32278">
+  <suite started-at="2024-08-12T16:05:33Z" name="Default suite" finished-at="2024-08-12T16:16:11Z" duration-ms="638137">
     <groups>
     </groups>
-    <test started-at="2024-08-11T17:40:40Z" name="Default test" finished-at="2024-08-11T17:41:12Z" duration-ms="32278">
+    <test started-at="2024-08-12T16:05:33Z" name="Default test" finished-at="2024-08-12T16:16:11Z" duration-ms="638137">
       <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-11T23:10:40Z" name="setup" finished-at="2024-08-11T23:10:47Z" duration-ms="7162" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:35:33Z" name="setup" finished-at="2024-08-12T21:35:42Z" duration-ms="8832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-11T23:10:47Z" name="TestCaseVerifyTitle" finished-at="2024-08-11T23:10:50Z" duration-ms="3027" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:35:42Z" name="TestCaseVerifyTitle" finished-at="2024-08-12T21:35:45Z" duration-ms="3037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-11T23:10:50Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-11T23:11:09Z" duration-ms="18703" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:35:45Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-12T21:35:53Z" duration-ms="7901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickOnCarousalLeftButton -->
+        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:35:53Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-12T21:36:01Z" duration-ms="8361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickOnCarousalRightButton -->
+        <test-method signature="TestCaseClickOnCarousalBanner()[pri:4, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:01Z" name="TestCaseClickOnCarousalBanner" finished-at="2024-08-12T21:36:10Z" duration-ms="8928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickOnCarousalBanner -->
+        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:10Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-12T21:36:14Z" duration-ms="4265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickOnHamburgerMenuButton -->
+        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:14Z" name="TestCaseSearchForProduct" finished-at="2024-08-12T21:36:27Z" duration-ms="13036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSearchForProduct -->
+        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:27Z" name="TestCaseAmazonLogo" finished-at="2024-08-12T21:36:32Z" duration-ms="4389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseAmazonLogo -->
+        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:32Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-12T21:36:40Z" duration-ms="8342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseEnterCurrentPinCode -->
+        <test-method signature="TestCaseChangeWebsiteLanguage()[pri:9, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:40Z" name="TestCaseChangeWebsiteLanguage" finished-at="2024-08-12T21:36:51Z" duration-ms="10400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseChangeWebsiteLanguage -->
+        <test-method signature="TestCaseSignInPage()[pri:10, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:36:51Z" name="TestCaseSignInPage" finished-at="2024-08-12T21:37:00Z" duration-ms="9016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSignInPage -->
+        <test-method signature="TestCaseClickOnAboutUsButton()[pri:11, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:37:00Z" name="TestCaseClickOnAboutUsButton" finished-at="2024-08-12T21:37:10Z" duration-ms="10558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickOnAboutUsButton -->
+        <test-method signature="TestCaseFooterGetToKnowUsLinksVerification()[pri:12, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:37:10Z" name="TestCaseFooterGetToKnowUsLinksVerification" finished-at="2024-08-12T21:37:31Z" duration-ms="21246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseFooterGetToKnowUsLinksVerification -->
+        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:37:31Z" name="TestCaseSocialMediaPages" finished-at="2024-08-12T21:38:26Z" duration-ms="54901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSocialMediaPages -->
+        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:38:26Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-12T21:40:17Z" duration-ms="110337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseMakeMoneyWithUsLinksVerify -->
+        <test-method signature="TestCaseLetUsHelpYouVerify()[pri:15, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:40:17Z" name="TestCaseLetUsHelpYouVerify" finished-at="2024-08-12T21:41:32Z" duration-ms="75699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseLetUsHelpYouVerify -->
+        <test-method signature="TestCaseAmazonServiceCategoriesVerify()[pri:16, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:41:32Z" name="TestCaseAmazonServiceCategoriesVerify" finished-at="2024-08-12T21:43:02Z" duration-ms="89230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseAmazonServiceCategoriesVerify -->
+        <test-method signature="TestCaseFooterCopyRightLinksVerify()[pri:17, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:43:02Z" name="TestCaseFooterCopyRightLinksVerify" finished-at="2024-08-12T21:43:25Z" duration-ms="22976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseFooterCopyRightLinksVerify -->
+        <test-method signature="TestCaseAmazonTextVerify()[pri:18, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:43:25Z" name="TestCaseAmazonTextVerify" finished-at="2024-08-12T21:43:28Z" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseAmazonTextVerify -->
+        <test-method signature="TestCaseAmazonFooterLogoVerify()[pri:19, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:43:28Z" name="TestCaseAmazonFooterLogoVerify" finished-at="2024-08-12T21:43:32Z" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseAmazonFooterLogoVerify -->
+        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:43:32Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-12T21:44:05Z" duration-ms="32958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseLanguageChangeFromFooterVerify -->
+        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:44:05Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-12T21:44:38Z" duration-ms="33192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSelectCountryVerify -->
+        <test-method signature="TestCaseSideNavigationTrendingUrlsVerify()[pri:22, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:44:38Z" name="TestCaseSideNavigationTrendingUrlsVerify" finished-at="2024-08-12T21:45:22Z" duration-ms="44108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSideNavigationTrendingUrlsVerify -->
+        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:45:22Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-12T21:46:06Z" duration-ms="44149" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.amazon.in/gp/help/customer/display.html?nodeId=G9PRYPSKBUUM6AGC&ref_=nav_em__shopall_alexa_app_0_2_2_6] but found [https://www.amazon.in/gp/help/customer/display.html?nodeId=201549920&ref_=nav_em__shopall_alexa_app_0_2_2_6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.amazon.in/gp/help/customer/display.html?nodeId=G9PRYPSKBUUM6AGC&ref_=nav_em__shopall_alexa_app_0_2_2_6] but found [https://www.amazon.in/gp/help/customer/display.html?nodeId=201549920&ref_=nav_em__shopall_alexa_app_0_2_2_6]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at pages.DashboardPageTestCases.TestCaseSideNavigationDigitalContentAndDevicesVerify(DashboardPageTestCases.java:1000)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSideNavigationDigitalContentAndDevicesVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@32c4e8b2]" started-at="2024-08-11T23:11:09Z" name="teardown" finished-at="2024-08-11T23:11:12Z" duration-ms="3373" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@76a2ddf3]" started-at="2024-08-12T21:46:06Z" name="teardown" finished-at="2024-08-12T21:46:11Z" duration-ms="4926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
