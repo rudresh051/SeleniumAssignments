@@ -121,6 +121,13 @@ public class DashboardPage {
 	@FindBy(xpath="//a[normalize-space()='Alexa Smart Home']") WebElement alexaSmartHome;
 	@FindBy(xpath="//ul[@class='hmenu hmenu-visible hmenu-translateX']//a[@class='hmenu-item'][normalize-space()='Amazon Prime Music']") WebElement amazonPrimeMusic;
 
+	// Product Filter page
+	@FindBy(xpath = "(//span[text()='Apple iPhone 15 Pro Max (256 GB) - Natural Titanium'])[3]") WebElement firstProduct;
+	@FindBy(xpath = "//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']//span[@class='a-size-medium a-color-base a-text-normal'][contains(text(),'Apple iPhone 15 Pro Max (256 GB) - Natural Titaniu')]") WebElement firstProduct1;
+	
+	
+	
+	
 	// Methods
 	public void clickOnCarousalLeftButton() {
 		CarousalLeftButton.click();
