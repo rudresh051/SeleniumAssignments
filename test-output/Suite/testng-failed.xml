@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
-      <class name="pages.DashboardPageTestCases"/>
+      <class name="tests.ProductListingPageTestCases"/>
+      <class name="tests.DashboardPageTestCases"/>
     </classes>
   </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="tests.DashboardPageTestCases">
+        <methods>
+          <include name="TestCaseAmazonFooterLogoVerify"/>
+          <include name="TestCaseSelectCountryVerify"/>
+          <include name="TestCaseSideNavigationDigitalContentAndDevicesVerify"/>
+          <include name="TestCaseAmazonTextVerify"/>
+          <include name="TestCaseSearchForProduct"/>
+          <include name="TestCaseFooterCopyRightLinksVerify"/>
+          <include name="TestCaseAmazonLogo"/>
+          <include name="TestCaseSignInPage"/>
+          <include name="TestCaseAmazonServiceCategoriesVerify"/>
+          <include name="TestCaseChangeWebsiteLanguage"/>
+          <include name="TestCaseLetUsHelpYouVerify"/>
+          <include name="TestCaseSideNavigationTrendingUrlsVerify"/>
+          <include name="TestCaseClickOnAboutUsButton"/>
+          <include name="TestCaseFooterGetToKnowUsLinksVerification"/>
+          <include name="TestCaseVerifyTitle"/>
+          <include name="TestCaseClickOnHamburgerMenuButton"/>
+          <include name="TestCaseSocialMediaPages"/>
+          <include name="TestCaseMakeMoneyWithUsLinksVerify"/>
+          <include name="TestCaseClickOnCarousalLeftButton"/>
+          <include name="TestCaseEnterCurrentPinCode"/>
+          <include name="TestCaseLanguageChangeFromFooterVerify"/>
+          <include name="TestCaseClickOnCarousalRightButton"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DashboardPageTestCases -->
+      <class name="tests.ProductListingPageTestCases">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="TestCaseProductFilter"/>
+        </methods>
+      </class> <!-- tests.ProductListingPageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

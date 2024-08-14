@@ -156,7 +156,7 @@ public class DashboardPage {
 	// Back to top
 	@FindBy(xpath = "//span[@class='navFooterBackToTopText']")
 	public WebElement backToTopButton;
-	
+
 	// Left Side Navigation Verification
 	@FindBy(id="nav-hamburger-menu") WebElement HamburgerMenuButton;
 	@FindBy(css = "div.hmenu-close-icon") WebElement hamClosebutton;
@@ -183,14 +183,7 @@ public class DashboardPage {
 	@FindBy(xpath="//ul[@class='hmenu hmenu-visible hmenu-translateX']//a[@class='hmenu-item'][normalize-space()='Amazon Prime Music']")
 	public WebElement amazonPrimeMusic;
 
-	// Product Filter page
-	@FindBy(xpath = "(//span[text()='Apple iPhone 15 Pro Max (256 GB) - Natural Titanium'])[3]") WebElement firstProduct;
-	@FindBy(xpath = "//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']//span[@class='a-size-medium a-color-base a-text-normal'][contains(text(),'Apple iPhone 15 Pro Max (256 GB) - Natural Titaniu')]")
-	public WebElement firstProduct1;
-	@FindBy(xpath = "(//input[@type='checkbox'])[1]") WebElement getItByTomorrow;
-	
-	
-	
+
 	// Methods
 	public void clickOnCarousalLeftButton() {
 		CarousalLeftButton.click();
@@ -246,8 +239,6 @@ public class DashboardPage {
 	public void clickOnAboutUsButton() {
 		aboutUsButton.click();
 	}
-	public void clickOnGetItByTomorrowCheckBox() {
-		getItByTomorrow.click();
-	}
+	
 
 }
