@@ -1,324 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="24" passed="21" failed="3" skipped="0">
+<testng-results total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-13T17:25:09Z" name="Default suite" finished-at="2024-08-13T17:32:32Z" duration-ms="442467">
+  <suite started-at="2024-08-14T15:15:57Z" name="Default suite" finished-at="2024-08-14T15:20:18Z" duration-ms="260864">
     <groups>
     </groups>
-    <test started-at="2024-08-13T17:25:09Z" name="Default test" finished-at="2024-08-13T17:32:32Z" duration-ms="442467">
-      <class name="pages.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:09Z" name="setup" finished-at="2024-08-13T22:55:17Z" duration-ms="7221" status="PASS">
+    <test started-at="2024-08-14T15:15:57Z" name="Default test" finished-at="2024-08-14T15:20:18Z" duration-ms="260864">
+      <class name="tests.DashboardPageTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:45:57Z" name="setup" finished-at="2024-08-14T20:46:04Z" duration-ms="7770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:17Z" name="TestCaseVerifyTitle" finished-at="2024-08-13T22:55:20Z" duration-ms="3034" status="PASS">
+        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:04Z" name="TestCaseVerifyTitle" finished-at="2024-08-14T20:46:08Z" duration-ms="3041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:20Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-13T22:55:27Z" duration-ms="7667" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:08Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-14T20:46:16Z" duration-ms="8410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalLeftButton -->
-        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:27Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-13T22:55:35Z" duration-ms="7639" status="PASS">
+        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:16Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-14T20:46:24Z" duration-ms="8056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalRightButton -->
-        <test-method signature="TestCaseClickOnCarousalBanner()[pri:4, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:35Z" name="TestCaseClickOnCarousalBanner" finished-at="2024-08-13T22:55:44Z" duration-ms="9035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnCarousalBanner -->
-        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:44Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-13T22:55:48Z" duration-ms="4300" status="PASS">
+        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:24Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-14T20:46:28Z" duration-ms="4464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnHamburgerMenuButton -->
-        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:55:48Z" name="TestCaseSearchForProduct" finished-at="2024-08-13T22:56:01Z" duration-ms="12801" status="PASS">
+        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:28Z" name="TestCaseSearchForProduct" finished-at="2024-08-14T20:46:42Z" duration-ms="13862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSearchForProduct -->
-        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:01Z" name="TestCaseAmazonLogo" finished-at="2024-08-13T22:56:06Z" duration-ms="4539" status="PASS">
+        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:42Z" name="TestCaseAmazonLogo" finished-at="2024-08-14T20:46:48Z" duration-ms="5345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseAmazonLogo -->
-        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:06Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-13T22:56:14Z" duration-ms="8399" status="PASS">
+        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:48Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-14T20:46:56Z" duration-ms="8740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterCurrentPinCode -->
-        <test-method signature="TestCaseChangeWebsiteLanguage()[pri:9, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:14Z" name="TestCaseChangeWebsiteLanguage" finished-at="2024-08-13T22:56:24Z" duration-ms="9757" status="PASS">
+        <test-method signature="TestCaseChangeWebsiteLanguage()[pri:9, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:46:56Z" name="TestCaseChangeWebsiteLanguage" finished-at="2024-08-14T20:47:07Z" duration-ms="10635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseChangeWebsiteLanguage -->
-        <test-method signature="TestCaseSignInPage()[pri:10, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:24Z" name="TestCaseSignInPage" finished-at="2024-08-13T22:56:33Z" duration-ms="8779" status="PASS">
+        <test-method signature="TestCaseSignInPage()[pri:10, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:47:07Z" name="TestCaseSignInPage" finished-at="2024-08-14T20:47:16Z" duration-ms="9050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSignInPage -->
-        <test-method signature="TestCaseClickOnAboutUsButton()[pri:11, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:33Z" name="TestCaseClickOnAboutUsButton" finished-at="2024-08-13T22:56:42Z" duration-ms="8847" status="PASS">
+        <test-method signature="TestCaseClickOnAboutUsButton()[pri:11, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:47:16Z" name="TestCaseClickOnAboutUsButton" finished-at="2024-08-14T20:47:26Z" duration-ms="9548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnAboutUsButton -->
-        <test-method signature="TestCaseFooterGetToKnowUsLinksVerification()[pri:12, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:56:42Z" name="TestCaseFooterGetToKnowUsLinksVerification" finished-at="2024-08-13T22:57:01Z" duration-ms="19211" status="PASS">
+        <test-method signature="TestCaseFooterGetToKnowUsLinksVerification()[pri:12, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:47:26Z" name="TestCaseFooterGetToKnowUsLinksVerification" finished-at="2024-08-14T20:47:47Z" duration-ms="21044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseFooterGetToKnowUsLinksVerification -->
-        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:57:01Z" name="TestCaseSocialMediaPages" finished-at="2024-08-13T22:57:54Z" duration-ms="53110" status="PASS">
+        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:47:47Z" name="TestCaseSocialMediaPages" finished-at="2024-08-14T20:48:43Z" duration-ms="56533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSocialMediaPages -->
-        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:57:54Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-13T22:57:58Z" duration-ms="4125" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="/b/?node=2838698031&amp;ld=AZINSOANavDesktopFooter_C&amp;ref_=nav_footer_sell_C" class="nav_a">...</a> is not clickable at point (790, 47). Other element would receive the click: <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" spellcheck="false">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.3998EE33013509F3C8A5750A9AE32F82.e.1803}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: (//a[@class='nav_a'])[8]]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/b/?node=2838698031&amp;ld=AZINSOANavDesktopFooter_C&amp;ref_=nav_footer_sell_C" class="nav_a">...</a> is not clickable at point (790, 47). Other element would receive the click: <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" spellcheck="false">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.3998EE33013509F3C8A5750A9AE32F82.e.1803}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: (//a[@class='nav_a'])[8]]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at pages.DashboardPageTestCases.TestCaseMakeMoneyWithUsLinksVerify(DashboardPageTestCases.java:283)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:48:43Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-14T20:50:14Z" duration-ms="90402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseMakeMoneyWithUsLinksVerify -->
-        <test-method signature="TestCaseLetUsHelpYouVerify()[pri:15, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:57:58Z" name="TestCaseLetUsHelpYouVerify" finished-at="2024-08-13T22:58:02Z" duration-ms="4202" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&amp;ref_=footer_covid" class="nav_a">...</a> is not clickable at point (1120, 47). Other element would receive the click: <input id="nav-search-submit-button" type="submit" class="nav-input nav-progressive-attribute" value="Go" tabindex="0">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.3998EE33013509F3C8A5750A9AE32F82.e.1804}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: (//a[@class='nav_a'])[17]]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&amp;ref_=footer_covid" class="nav_a">...</a> is not clickable at point (1120, 47). Other element would receive the click: <input id="nav-search-submit-button" type="submit" class="nav-input nav-progressive-attribute" value="Go" tabindex="0">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.3998EE33013509F3C8A5750A9AE32F82.e.1804}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: (//a[@class='nav_a'])[17]]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at pages.DashboardPageTestCases.TestCaseLetUsHelpYouVerify(DashboardPageTestCases.java:411)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLetUsHelpYouVerify -->
-        <test-method signature="TestCaseAmazonServiceCategoriesVerify()[pri:16, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:58:02Z" name="TestCaseAmazonServiceCategoriesVerify" finished-at="2024-08-13T22:59:11Z" duration-ms="68739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonServiceCategoriesVerify -->
-        <test-method signature="TestCaseFooterCopyRightLinksVerify()[pri:17, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:59:11Z" name="TestCaseFooterCopyRightLinksVerify" finished-at="2024-08-13T22:59:31Z" duration-ms="20442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseFooterCopyRightLinksVerify -->
-        <test-method signature="TestCaseAmazonTextVerify()[pri:18, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:59:31Z" name="TestCaseAmazonTextVerify" finished-at="2024-08-13T22:59:34Z" duration-ms="3027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonTextVerify -->
-        <test-method signature="TestCaseAmazonFooterLogoVerify()[pri:19, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:59:34Z" name="TestCaseAmazonFooterLogoVerify" finished-at="2024-08-13T22:59:38Z" duration-ms="3933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonFooterLogoVerify -->
-        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T22:59:38Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-13T23:00:11Z" duration-ms="32915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLanguageChangeFromFooterVerify -->
-        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T23:00:11Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-13T23:00:43Z" duration-ms="31971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSelectCountryVerify -->
-        <test-method signature="TestCaseSideNavigationTrendingUrlsVerify()[pri:22, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T23:00:43Z" name="TestCaseSideNavigationTrendingUrlsVerify" finished-at="2024-08-13T23:00:49Z" duration-ms="6233" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="navFooterBackToTopText">...</span> is not clickable at point (759, 24). Other element would receive the click: <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" spellcheck="false">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.4670BB4D9A0CDBC696F1A8CADAC120DF.e.3104}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: //span[@class='navFooterBackToTopText']]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="navFooterBackToTopText">...</span> is not clickable at point (759, 24). Other element would receive the click: <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="Search Amazon.in" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search Amazon.in" spellcheck="false">
-  (Session info: chrome=127.0.6533.100)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8dc1d4e3e496b3f4174b5e4f0f1ee5a3, clickElement {id=f.CC7D6AAEB16FB104D7AFAED1BA960BBD.d.4670BB4D9A0CDBC696F1A8CADAC120DF.e.3104}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62139}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62139/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8dc1d4e3e496b3f4174b5e4f0f1ee5a3)] -> xpath: //span[@class='navFooterBackToTopText']]
-Session ID: 8dc1d4e3e496b3f4174b5e4f0f1ee5a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at pages.DashboardPageTestCases.TestCaseSideNavigationTrendingUrlsVerify(DashboardPageTestCases.java:879)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSideNavigationTrendingUrlsVerify -->
-        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T23:00:49Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-13T23:02:21Z" duration-ms="91605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSideNavigationDigitalContentAndDevicesVerify -->
-        <test-method signature="TestCaseProductFilter()[pri:24, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T23:02:21Z" name="TestCaseProductFilter" finished-at="2024-08-13T23:02:28Z" duration-ms="6762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseProductFilter -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.DashboardPageTestCases@524f3b3a]" started-at="2024-08-13T23:02:28Z" name="teardown" finished-at="2024-08-13T23:02:32Z" duration-ms="4141" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DashboardPageTestCases@e57b96d]" started-at="2024-08-14T20:50:14Z" name="teardown" finished-at="2024-08-14T20:50:18Z" duration-ms="3920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- pages.DashboardPageTestCases -->
+      </class> <!-- tests.DashboardPageTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

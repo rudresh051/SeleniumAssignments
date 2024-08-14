@@ -3,20 +3,7 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="pages.DashboardPageTestCases"/>
+      <class name="tests.DashboardPageTestCases"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="pages.DashboardPageTestCases">
-        <methods>
-          <include name="TestCaseSideNavigationTrendingUrlsVerify"/>
-          <include name="TestCaseMakeMoneyWithUsLinksVerify"/>
-          <include name="teardown"/>
-          <include name="TestCaseLetUsHelpYouVerify"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- pages.DashboardPageTestCases -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

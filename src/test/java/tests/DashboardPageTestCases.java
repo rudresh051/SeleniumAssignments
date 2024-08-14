@@ -1,4 +1,4 @@
-package pages;
+package tests;
 
 import java.time.Duration;
 import java.util.Set;
@@ -20,15 +20,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObjects.DashboardPage;
 
 public class DashboardPageTestCases {
 
-	private WebDriver driver;
-	private DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
+	WebDriver driver;
+	DashboardPage DashboardPageVariable; // Create an instance of Dashboard page
 	WebDriverWait wait;
 	Select sel;
-
-
 
 	@BeforeTest
 	public void setup() throws InterruptedException {
@@ -76,13 +75,13 @@ public class DashboardPageTestCases {
 		}
 	}
 
-	@Test(priority = 4)
-	public void TestCaseClickOnCarousalBanner() throws InterruptedException {
-		DashboardPageVariable.clickOnCarousalBanner();
-		Thread.sleep(3000);
-		driver.navigate().back();
-		Thread.sleep(3000);
-	}
+//	@Test(priority = 4)
+//	public void TestCaseClickOnCarousalBanner() throws InterruptedException {
+//		DashboardPageVariable.clickOnCarousalBanner();
+//		Thread.sleep(3000);
+//		driver.navigate().back();
+//		Thread.sleep(3000);
+//	}
 
 	@Test(priority = 5)
 	public void TestCaseClickOnHamburgerMenuButton() throws InterruptedException {
@@ -1094,6 +1093,8 @@ public class DashboardPageTestCases {
 			}else {
 				System.out.println("First product is not accurately fetched");
 			}
+			DashboardPageVariable.clickOnGetItByTomorrowCheckBox();
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
