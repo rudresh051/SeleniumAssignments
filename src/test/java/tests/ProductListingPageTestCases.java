@@ -1,32 +1,21 @@
 package tests;
 
-import java.time.Duration;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.DashboardPage;
 import pageObjects.ProductListingPage;
 
 public class ProductListingPageTestCases extends BaseTest {
 
-	DashboardPage DashboardPageVariable;
-	ProductListingPage ProductListingPageVariable;
+	private DashboardPage DashboardPageVariable;
+	private ProductListingPage ProductListingPageVariable;
 
-	@BeforeTest
+	@BeforeClass
 	public void setUp() {
-		//		super.setUpSuite();
 		DashboardPageVariable = new DashboardPage(driver);
 		ProductListingPageVariable = new ProductListingPage(driver);
 	}
@@ -35,6 +24,7 @@ public class ProductListingPageTestCases extends BaseTest {
 	@Test(priority = 24)
 	public void TestCaseProductFilter() throws InterruptedException{
 		try {
+			System.out.println("hello2");
 			DashboardPageVariable.clickOnSearchBar("iphone 15 pro max");
 			Thread.sleep(3000);
 			DashboardPageVariable.clickOnFirstOption();

@@ -7,14 +7,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ProductListingPage {
-	
-	WebDriver driver;
-
+	private WebDriver driver;
+	private Actions actions;
 	// constructor
-	public ProductListingPage(WebDriver d) {
-		driver = d;
+	public ProductListingPage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		Actions act = new Actions(driver);
+		actions = new Actions(driver);  // Initialize Actions here
 	}
 
 	// Product Filter page

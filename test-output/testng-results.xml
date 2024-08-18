@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="23" passed="0" failed="0" skipped="23">
+<testng-results total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T18:41:45Z" name="Suite" finished-at="2024-08-14T18:41:46Z" duration-ms="151">
+  <suite started-at="2024-08-15T11:13:44Z" name="Suite" finished-at="2024-08-15T11:13:55Z" duration-ms="11268">
     <groups>
     </groups>
-    <test started-at="2024-08-14T18:41:45Z" name="Test" finished-at="2024-08-14T18:41:46Z" duration-ms="151">
+    <test started-at="2024-08-15T11:13:44Z" name="Test" finished-at="2024-08-15T11:13:55Z" duration-ms="11268">
       <class name="tests.ProductListingPageTestCases">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.ProductListingPageTestCases@2ef14fe]" started-at="2024-08-15T00:11:42Z" name="setUpSuite" finished-at="2024-08-15T00:11:45Z" duration-ms="3836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method signature="TestCaseProductFilter()[pri:24, instance:tests.ProductListingPageTestCases@2ef14fe]" started-at="2024-08-15T00:11:46Z" name="TestCaseProductFilter" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseProductFilter -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProductListingPageTestCases@2ef14fe]" started-at="2024-08-15T00:11:46Z" name="tearDownSuite" finished-at="2024-08-15T00:11:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownSuite -->
-      </class> <!-- tests.ProductListingPageTestCases -->
-      <class name="tests.DashboardPageTestCases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="setup" finished-at="2024-08-15T00:11:45Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductListingPageTestCases@4f5991f6]" started-at="2024-08-15T16:43:55Z" name="setUp" finished-at="2024-08-15T16:43:55Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Driver must be set]]>
@@ -30,8 +16,8 @@
               <![CDATA[java.lang.IllegalArgumentException: Driver must be set
 	at org.openqa.selenium.internal.Require.nonNull(Require.java:61)
 	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:59)
-	at pageObjects.DashboardPage.<init>(DashboardPage.java:21)
-	at tests.DashboardPageTestCases.setup(DashboardPageTestCases.java:35)
+	at pageObjects.DashboardPage.<init>(DashboardPage.java:17)
+	at tests.ProductListingPageTestCases.setUp(ProductListingPageTestCases.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -40,8 +26,10 @@
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
-	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
@@ -59,99 +47,33 @@
           </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductListingPageTestCases@2ef14fe]" started-at="2024-08-15T00:11:45Z" name="setUp" finished-at="2024-08-15T00:11:45Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCaseProductFilter()[pri:24, instance:tests.ProductListingPageTestCases@4f5991f6]" started-at="2024-08-15T16:43:55Z" name="TestCaseProductFilter" finished-at="2024-08-15T16:43:55Z" duration-ms="4" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TestCaseVerifyTitle()[pri:0, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="TestCaseVerifyTitle" finished-at="2024-08-15T00:11:45Z" duration-ms="1" status="SKIP">
+        </test-method> <!-- TestCaseProductFilter -->
+      </class> <!-- tests.ProductListingPageTestCases -->
+      <class name="tests.DashboardPageTestCases">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.DashboardPageTestCases@7ae42ce3]" started-at="2024-08-15T16:43:41Z" name="setUpSuite" finished-at="2024-08-15T16:43:44Z" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardPageTestCases@7ae42ce3]" started-at="2024-08-15T16:43:44Z" name="setup" finished-at="2024-08-15T16:43:44Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCaseVerifyTitle()[pri:1, instance:tests.DashboardPageTestCases@7ae42ce3]" started-at="2024-08-15T16:43:44Z" name="TestCaseVerifyTitle" finished-at="2024-08-15T16:43:48Z" duration-ms="3406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyTitle -->
-        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-15T00:11:45Z" duration-ms="0" status="SKIP">
+        <test-method signature="TestCaseClickOnCarousalLeftButton()[pri:2, instance:tests.DashboardPageTestCases@7ae42ce3]" started-at="2024-08-15T16:43:48Z" name="TestCaseClickOnCarousalLeftButton" finished-at="2024-08-15T16:43:55Z" duration-ms="7766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickOnCarousalLeftButton -->
-        <test-method signature="TestCaseClickOnCarousalRightButton()[pri:3, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="TestCaseClickOnCarousalRightButton" finished-at="2024-08-15T00:11:45Z" duration-ms="3" status="SKIP">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.DashboardPageTestCases@7ae42ce3]" started-at="2024-08-15T16:43:55Z" name="tearDownSuite" finished-at="2024-08-15T16:43:56Z" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaseClickOnCarousalRightButton -->
-        <test-method signature="TestCaseClickOnHamburgerMenuButton()[pri:5, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="TestCaseClickOnHamburgerMenuButton" finished-at="2024-08-15T00:11:45Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnHamburgerMenuButton -->
-        <test-method signature="TestCaseSearchForProduct()[pri:6, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:45Z" name="TestCaseSearchForProduct" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSearchForProduct -->
-        <test-method signature="TestCaseAmazonLogo()[pri:7, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseAmazonLogo" finished-at="2024-08-15T00:11:46Z" duration-ms="8" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonLogo -->
-        <test-method signature="TestCaseEnterCurrentPinCode()[pri:8, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseEnterCurrentPinCode" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseEnterCurrentPinCode -->
-        <test-method signature="TestCaseChangeWebsiteLanguage()[pri:9, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseChangeWebsiteLanguage" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseChangeWebsiteLanguage -->
-        <test-method signature="TestCaseSignInPage()[pri:10, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseSignInPage" finished-at="2024-08-15T00:11:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSignInPage -->
-        <test-method signature="TestCaseClickOnAboutUsButton()[pri:11, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseClickOnAboutUsButton" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseClickOnAboutUsButton -->
-        <test-method signature="TestCaseFooterGetToKnowUsLinksVerification()[pri:12, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseFooterGetToKnowUsLinksVerification" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseFooterGetToKnowUsLinksVerification -->
-        <test-method signature="TestCaseSocialMediaPages()[pri:13, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseSocialMediaPages" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSocialMediaPages -->
-        <test-method signature="TestCaseMakeMoneyWithUsLinksVerify()[pri:14, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseMakeMoneyWithUsLinksVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseMakeMoneyWithUsLinksVerify -->
-        <test-method signature="TestCaseLetUsHelpYouVerify()[pri:15, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseLetUsHelpYouVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLetUsHelpYouVerify -->
-        <test-method signature="TestCaseAmazonServiceCategoriesVerify()[pri:16, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseAmazonServiceCategoriesVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonServiceCategoriesVerify -->
-        <test-method signature="TestCaseFooterCopyRightLinksVerify()[pri:17, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseFooterCopyRightLinksVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseFooterCopyRightLinksVerify -->
-        <test-method signature="TestCaseAmazonTextVerify()[pri:18, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseAmazonTextVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonTextVerify -->
-        <test-method signature="TestCaseAmazonFooterLogoVerify()[pri:19, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseAmazonFooterLogoVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseAmazonFooterLogoVerify -->
-        <test-method signature="TestCaseLanguageChangeFromFooterVerify()[pri:20, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseLanguageChangeFromFooterVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseLanguageChangeFromFooterVerify -->
-        <test-method signature="TestCaseSelectCountryVerify()[pri:21, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseSelectCountryVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSelectCountryVerify -->
-        <test-method signature="TestCaseSideNavigationTrendingUrlsVerify()[pri:22, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseSideNavigationTrendingUrlsVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSideNavigationTrendingUrlsVerify -->
-        <test-method signature="TestCaseSideNavigationDigitalContentAndDevicesVerify()[pri:23, instance:tests.DashboardPageTestCases@77102b91]" started-at="2024-08-15T00:11:46Z" name="TestCaseSideNavigationDigitalContentAndDevicesVerify" finished-at="2024-08-15T00:11:46Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseSideNavigationDigitalContentAndDevicesVerify -->
+        </test-method> <!-- tearDownSuite -->
       </class> <!-- tests.DashboardPageTestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

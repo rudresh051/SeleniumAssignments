@@ -16,11 +16,19 @@ public class BaseTest {
 
 	@BeforeSuite
 	public void setUpSuite() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.amazon.in");  // Load the URL here
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		try {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.amazon.in");  // Load the URL here
+			wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		} catch (Exception e) {
+			// TODO: handle exception
+			 System.out.println("Error during setup: " + e.getMessage());
+	         e.printStackTrace();
+	         throw e;  // Re-throw to ensure the suite fails if setup fails
+		}
+		
 	}
 
 	@AfterSuite
