@@ -11,7 +11,7 @@
     <classes>
       <class name="tests.ProductListingPageTestCases">
         <methods>
-          <include name="TestCaseProductFilter"/>
+          <include name="zzzzTestCaseProductFilter"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.ProductListingPageTestCases -->

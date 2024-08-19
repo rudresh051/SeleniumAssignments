@@ -1,2 +1,5 @@
-pages\DashboardPage.class
-pages\DashboardPageTestCases.class
+base\BaseTest.class
+tests\DashboardPageTestCases.class
+pageObjects\ProductListingPage.class
+tests\ProductListingPageTestCases.class
+pageObjects\DashboardPage.class

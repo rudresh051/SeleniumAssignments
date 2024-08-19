@@ -16,13 +16,13 @@ public class ProductListingPageTestCases extends BaseTest {
 
 	@BeforeClass
 	public void setUp() {
+		initializeDriver();
 		DashboardPageVariable = new DashboardPage(driver);
 		ProductListingPageVariable = new ProductListingPage(driver);
 	}
 
-
 	@Test(priority = 24)
-	public void TestCaseProductFilter() throws InterruptedException{
+	public void zzzzTestCaseProductFilter() throws InterruptedException{
 		try {
 			System.out.println("hello2");
 			DashboardPageVariable.clickOnSearchBar("iphone 15 pro max");
@@ -46,5 +46,6 @@ public class ProductListingPageTestCases extends BaseTest {
 			Assert.fail("Test case failed due to an exception: " + e.getMessage());
 		}
 	}
+	
 
 }

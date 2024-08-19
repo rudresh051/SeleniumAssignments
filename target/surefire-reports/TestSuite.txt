@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.924 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 16.813 s <<< FAILURE! - in TestSuite
+tests.ProductListingPageTestCases.setUp  Time elapsed: 7.988 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Driver must be set
+	at tests.ProductListingPageTestCases.setUp(ProductListingPageTestCases.java:19)
+

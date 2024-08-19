@@ -1,2 +1,5 @@
-C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\pages\DashboardPage.java
-C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\pages\DashboardPageTestCases.java
+C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\pageObjects\DashboardPage.java
+C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\tests\ProductListingPageTestCases.java
+C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\base\BaseTest.java
+C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\pageObjects\ProductListingPage.java
+C:\SeleniumAssignments\Assignment3\Project_Amazon\src\test\java\tests\DashboardPageTestCases.java

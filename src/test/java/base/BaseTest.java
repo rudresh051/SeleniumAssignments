@@ -11,8 +11,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
-	protected WebDriver driver;
-	protected WebDriverWait wait;
+	protected static WebDriver driver;
+	protected static WebDriverWait wait;
+
+	  public static void initializeDriver() {
+	        if (driver == null) { // Check if driver is already initialized
+	            WebDriverManager.chromedriver().setup();
+	            driver = new ChromeDriver();
+	            driver.manage().window().maximize();
+	            wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+
+	        }
+	    }
 
 	@BeforeSuite
 	public void setUpSuite() {
@@ -24,11 +34,11 @@ public class BaseTest {
 			wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		} catch (Exception e) {
 			// TODO: handle exception
-			 System.out.println("Error during setup: " + e.getMessage());
-	         e.printStackTrace();
-	         throw e;  // Re-throw to ensure the suite fails if setup fails
+			System.out.println("Error during setup: " + e.getMessage());
+			e.printStackTrace();
+			throw e;  // Re-throw to ensure the suite fails if setup fails
 		}
-		
+
 	}
 
 	@AfterSuite

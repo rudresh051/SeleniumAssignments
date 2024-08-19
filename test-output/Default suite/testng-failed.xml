@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.DashboardPageTestCases">
         <methods>
-          <include name="TestCaseVerifyTitle"/>
+          <include name="TestCaseClickOnCarousalLeftButton"/>
         </methods>
       </class> <!-- tests.DashboardPageTestCases -->
     </classes>
