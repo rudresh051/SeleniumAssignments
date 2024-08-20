@@ -17,14 +17,13 @@ public class ProductListingPage {
 	}
 
 	// Product Filter page
-	@FindBy(xpath = "(//span[text()='Apple iPhone 15 Pro Max (256 GB) - Natural Titanium'])[3]") WebElement firstProduct;
-	@FindBy(xpath = "//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']//span[@class='a-size-medium a-color-base a-text-normal'][contains(text(),'Apple iPhone 15 Pro Max (256 GB) - Natural Titaniu')]")
+	@FindBy(xpath = "(//span[@class='a-size-medium a-color-base a-text-normal'])[1]")
 	public WebElement firstProduct1;
-	@FindBy(xpath = "(//input[@type='checkbox'])[1]") WebElement getItByTomorrow;
+	@FindBy(xpath = "(//span[@class='a-size-base a-color-base'])[6]") WebElement appleCheckbox;
 
 
 	// Methods
-	public void clickOnGetItByTomorrowCheckBox() {
-		getItByTomorrow.click();
+	public void clickOnAppleCheckbox() {
+		appleCheckbox.click();
 	}
 }

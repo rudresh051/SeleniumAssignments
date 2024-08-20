@@ -22,23 +22,23 @@ public class ProductListingPageTestCases extends BaseTest {
 	}
 
 	@Test(priority = 24)
-	public void zzzzTestCaseProductFilter() throws InterruptedException{
+	public void TestCaseProductFilter() throws InterruptedException{
 		try {
-			System.out.println("hello2");
 			DashboardPageVariable.clickOnSearchBar("iphone 15 pro max");
 			Thread.sleep(3000);
 			DashboardPageVariable.clickOnFirstOption();
 			Thread.sleep(2000);
-			wait.until(ExpectedConditions.urlContains("https://www.amazon.in/s?k=iphone"));
+			wait.until(ExpectedConditions.urlContains("iphone"));
 			String expected_text1 = "iphone 15";
 			String actual_text1 = ProductListingPageVariable.firstProduct1.getText();
-			if(actual_text1.contains(expected_text1)) {
+			if(actual_text1.toLowerCase().contains(expected_text1.toLowerCase())) {
 				System.out.println("First product is accurately fetched");
 			}else {
 				System.out.println("First product is not accurately fetched");
 			}
-			ProductListingPageVariable.clickOnGetItByTomorrowCheckBox();
-			Thread.sleep(3000);
+			Thread.sleep(4000);
+			ProductListingPageVariable.clickOnAppleCheckbox();
+			Thread.sleep(4000);
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");

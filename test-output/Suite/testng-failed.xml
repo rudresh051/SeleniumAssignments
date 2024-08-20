@@ -7,21 +7,4 @@
       <class name="tests.ProductListingPageTestCases"/>
     </classes>
   </test> <!-- Test -->
-  <test parallel="none" name="Test(failed)">
-    <classes>
-      <class name="tests.ProductListingPageTestCases">
-        <methods>
-          <include name="zzzzTestCaseProductFilter"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.ProductListingPageTestCases -->
-      <class name="tests.DashboardPageTestCases">
-        <methods>
-          <include name="tearDownSuite"/>
-          <include name="setUpSuite"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- tests.DashboardPageTestCases -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
