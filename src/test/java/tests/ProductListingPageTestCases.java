@@ -47,5 +47,27 @@ public class ProductListingPageTestCases extends BaseTest {
 		}
 	}
 	
+	@Test(priority = 25)
+	public void TestCaseSortProduct() {
+		try {
+			DashboardPageVariable.clickLogo();
+			Thread.sleep(3000);
+			DashboardPageVariable.clickOnSearchBar("iphone 15 pro max");
+			Thread.sleep(3000);
+			DashboardPageVariable.clickOnFirstOption();
+			Thread.sleep(2000);
+			ProductListingPageVariable.sortingDropdown.click();
+			Thread.sleep(3000);
+			
+			// Select Low to High
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Element not found within 10 seconds. Proceeding to the next line of code.");
+			e.printStackTrace();
+			Assert.fail("Test case failed due to an exception: " + e.getMessage());
+		}
+	}
 
 }
