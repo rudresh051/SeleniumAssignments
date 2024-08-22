@@ -2,28 +2,28 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T17:27:19Z" name="Default suite" finished-at="2024-08-22T17:28:10Z" duration-ms="50979">
+  <suite started-at="2024-08-22T17:36:47Z" name="Default suite" finished-at="2024-08-22T17:37:41Z" duration-ms="54860">
     <groups>
     </groups>
-    <test started-at="2024-08-22T17:27:19Z" name="Default test" finished-at="2024-08-22T17:28:10Z" duration-ms="50979">
+    <test started-at="2024-08-22T17:36:47Z" name="Default test" finished-at="2024-08-22T17:37:41Z" duration-ms="54860">
       <class name="tests.ProductListingPageTestCases">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T22:57:15Z" name="setUpSuite" finished-at="2024-08-22T22:57:19Z" duration-ms="4339" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T23:06:42Z" name="setUpSuite" finished-at="2024-08-22T23:06:47Z" duration-ms="4386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T22:57:19Z" name="setUp" finished-at="2024-08-22T22:57:20Z" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T23:06:47Z" name="setUp" finished-at="2024-08-22T23:06:47Z" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestCaseProductFilter()[pri:24, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T22:57:20Z" name="TestCaseProductFilter" finished-at="2024-08-22T22:57:37Z" duration-ms="17324" status="PASS">
+        <test-method signature="TestCaseProductFilter()[pri:24, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T23:06:47Z" name="TestCaseProductFilter" finished-at="2024-08-22T23:07:04Z" duration-ms="17637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseProductFilter -->
-        <test-method signature="TestCaseSortProduct()[pri:25, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T22:57:37Z" name="TestCaseSortProduct" finished-at="2024-08-22T22:58:10Z" duration-ms="33578" status="PASS">
+        <test-method signature="TestCaseSortProduct()[pri:25, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T23:07:04Z" name="TestCaseSortProduct" finished-at="2024-08-22T23:07:41Z" duration-ms="37121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSortProduct -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T22:58:10Z" name="tearDownSuite" finished-at="2024-08-22T22:58:11Z" duration-ms="537" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.ProductListingPageTestCases@598bd2ba]" started-at="2024-08-22T23:07:41Z" name="tearDownSuite" finished-at="2024-08-22T23:07:42Z" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
