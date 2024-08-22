@@ -1,6 +1,7 @@
 package tests;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -56,10 +57,27 @@ public class ProductListingPageTestCases extends BaseTest {
 			Thread.sleep(3000);
 			DashboardPageVariable.clickOnFirstOption();
 			Thread.sleep(2000);
-			ProductListingPageVariable.sortingDropdown.click();
-			Thread.sleep(3000);
-			
+//			ProductListingPageVariable.sortingDropdown.click();
+//			Thread.sleep(3000);
 			// Select Low to High
+			Select sel1 = new Select(ProductListingPageVariable.sortingDropdown);
+			sel1.selectByIndex(1);
+			Thread.sleep(5000);
+			
+			// Select High to Low
+			Select sel2 = new Select(ProductListingPageVariable.sortingDropdown);
+			sel2.selectByIndex(2);
+			Thread.sleep(5000);
+			
+			// Select Average Customer Review
+			Select sel3 = new Select(ProductListingPageVariable.sortingDropdown);
+			sel3.selectByIndex(3);
+			Thread.sleep(5000);
+			
+			// Newest Arrivals
+			Select sel4 = new Select(ProductListingPageVariable.sortingDropdown);
+			sel3.selectByIndex(4);
+			Thread.sleep(5000);
 			
 			
 		} catch (Exception e) {

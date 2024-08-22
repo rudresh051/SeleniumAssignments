@@ -20,7 +20,7 @@ public class ProductListingPage {
 	@FindBy(xpath = "(//span[@class='a-size-medium a-color-base a-text-normal'])[1]")
 	public WebElement firstProduct1;
 	@FindBy(xpath = "(//span[@class='a-size-base a-color-base'])[6]") WebElement appleCheckbox;
-	@FindBy(xpath = "//span[@class='a-button-text a-declarative']") public WebElement sortingDropdown;
+	@FindBy(xpath = "//select[@id='s-result-sort-select']") public WebElement sortingDropdown;
 	
 
 	// Methods
