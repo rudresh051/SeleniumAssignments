@@ -21,6 +21,8 @@ public class ProductListingPage {
 	public WebElement firstProduct1;
 	@FindBy(xpath = "(//span[@class='a-size-base a-color-base'])[6]") WebElement appleCheckbox;
 	@FindBy(xpath = "//select[@id='s-result-sort-select']") public WebElement sortingDropdown;
+	@FindBy(xpath = "//input[@id=p_36/range-slider_slider-item_upper-bound-slider']") public WebElement sliderButton;
+	@FindBy(xpath = "(//span[text()='& Up'])[2]") public WebElement custormerReview;
 	
 
 	// Methods
